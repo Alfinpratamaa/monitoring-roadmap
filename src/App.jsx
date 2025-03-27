@@ -15,6 +15,9 @@ function App() {
     toggleWeek,
     toggleTask,
     resetProgress,
+    isResetDialogOpen,
+    showResetDialog,
+    closeResetDialog,
   } = useRoadmap();
 
   const [sidebarOpen, setSidebarOpen] = useState(true);
@@ -33,6 +36,9 @@ function App() {
         sidebarOpen={sidebarOpen}
         setSidebarOpen={setSidebarOpen}
         resetProgress={resetProgress}
+        isResetDialogOpen={isResetDialogOpen}
+        showResetDialog={showResetDialog}
+        closeResetDialog={closeResetDialog}
       />
 
       {/* Main Content */}

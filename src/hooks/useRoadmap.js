@@ -12,6 +12,9 @@ const useRoadmap = () => {
   // State for active month
   const [activeMonth, setActiveMonth] = useState(months[0].id);
 
+  // State for reset dialog
+  const [isResetDialogOpen, setIsResetDialogOpen] = useState(false);
+
   // Save to localStorage whenever data changes
   useEffect(() => {
     localStorage.setItem("roadmapData", JSON.stringify(months));
@@ -71,13 +74,21 @@ const useRoadmap = () => {
     setMonths(updateAllProgress(updatedMonths));
   };
 
-  // Reset all progress (for testing)
+  // Fungsi untuk menunjukkan dialog reset
+  const showResetDialog = () => {
+    setIsResetDialogOpen(true);
+  };
+
+  // Fungsi untuk menutup dialog reset
+  const closeResetDialog = () => {
+    setIsResetDialogOpen(false);
+  };
+
+  // Reset all progress (now called from dialog)
   const resetProgress = () => {
-    if (window.confirm("Apakah Anda yakin ingin mereset semua progress?")) {
-      localStorage.removeItem("roadmapData");
-      setMonths(updateAllProgress(initialMonths));
-      setActiveMonth(initialMonths[0].id);
-    }
+    localStorage.removeItem("roadmapData");
+    setMonths(updateAllProgress(initialMonths));
+    setActiveMonth(initialMonths[0].id);
   };
 
   return {
@@ -88,6 +99,9 @@ const useRoadmap = () => {
     toggleWeek,
     toggleTask,
     resetProgress,
+    isResetDialogOpen,
+    showResetDialog,
+    closeResetDialog,
   };
 };
 
