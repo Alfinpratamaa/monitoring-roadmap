@@ -3443,3023 +3443,151 @@
            ],
          },
        },
+
        {
-         weeks: [
+         id: "september-week4",
+         name: "Minggu 4: Scaling Realtime Applications",
+         expanded: false,
+         days: [
            {
-             id: "october-week1",
-             name: "Minggu 1: Docker Fundamentals",
-             expanded: false,
-             days: [
+             id: "september-day19",
+             date: "9 September",
+             dayName: "Senin",
+             tasks: [
                {
-                 id: "october-day1",
-                 date: "16 September",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "october-task1-1",
-                     text: "Mempelajari konsep containerization",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task1-2",
-                     text: "Memahami Docker vs VM",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task1-3",
-                     text: "Latihan: Instalasi Docker",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task19-1",
+                 text: "Mempelajari connection pooling",
+                 completed: false,
                },
                {
-                 id: "october-day2",
-                 date: "17 September",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "october-task2-1",
-                     text: "Mempelajari Dockerfile",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task2-2",
-                     text: "Memahami Docker images dan layers",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task2-3",
-                     text: "Latihan: Membuat Docker image untuk Go app",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task19-2",
+                 text: "Memahami WebSocket clustering",
+                 completed: false,
                },
                {
-                 id: "october-day3",
-                 date: "18 September",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "october-task3-1",
-                     text: "Mempelajari Docker containers",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task3-2",
-                     text: "Memahami container lifecycle",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task3-3",
-                     text: "Latihan: Running dan managing containers",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "october-day4",
-                 date: "19 September",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "october-task4-1",
-                     text: "Mempelajari Docker volumes",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task4-2",
-                     text: "Memahami data persistence",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task4-3",
-                     text: "Latihan: Setup volume mounts",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "october-day5",
-                 date: "20 September",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "october-task5-1",
-                     text: "Mempelajari Docker networking",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task5-2",
-                     text: "Memahami bridge networks",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task5-3",
-                     text: "Mini-project: Multi-container app",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "october-day6",
-                 date: "21-22 September",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "october-task6-1",
-                     text: "Review materi minggu 1",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task6-2",
-                     text: "Riset Docker best practices",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task6-3",
-                     text: "Eksperimen dengan Docker optimization",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task19-3",
+                 text: "Latihan: Setup WebSocket load balancing",
+                 completed: false,
                },
              ],
            },
            {
-             id: "october-week2",
-             name: "Minggu 2: Docker Compose & Multi-Container Apps",
-             expanded: false,
-             days: [
+             id: "september-day20",
+             date: "10 September",
+             dayName: "Selasa",
+             tasks: [
                {
-                 id: "october-day7",
-                 date: "23 September",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "october-task7-1",
-                     text: "Mempelajari Docker Compose",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task7-2",
-                     text: "Memahami docker-compose.yml",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task7-3",
-                     text: "Latihan: Setup multi-service composition",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task20-1",
+                 text: "Mempelajari Redis pub/sub untuk scaling",
+                 completed: false,
                },
                {
-                 id: "october-day8",
-                 date: "24 September",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "october-task8-1",
-                     text: "Mempelajari service dependencies",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task8-2",
-                     text: "Memahami healthchecks",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task8-3",
-                     text: "Latihan: Ordered service startup",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task20-2",
+                 text: "Memahami sticky sessions",
+                 completed: false,
                },
                {
-                 id: "october-day9",
-                 date: "25 September",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "october-task9-1",
-                     text: "Mempelajari environment variables",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task9-2",
-                     text: "Memahami configuration management",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task9-3",
-                     text: "Latihan: Environment-specific configs",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "october-day10",
-                 date: "26 September",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "october-task10-1",
-                     text: "Mempelajari Docker networks",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task10-2",
-                     text: "Memahami service discovery",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task10-3",
-                     text: "Latihan: Inter-service communication",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "october-day11",
-                 date: "27 September",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "october-task11-1",
-                     text: "Mempelajari container scaling",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task11-2",
-                     text: "Memahami load balancing",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task11-3",
-                     text: "Mini-project: Scalable web app dengan Compose",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "october-day12",
-                 date: "28-29 September",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "october-task12-1",
-                     text: "Review materi minggu 2",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task12-2",
-                     text: "Riset production-ready Compose setups",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task12-3",
-                     text: "Eksperimen dengan Docker Compose override files",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task20-3",
+                 text: "Latihan: Multi-server broadcast",
+                 completed: false,
                },
              ],
            },
            {
-             id: "october-week3",
-             name: "Minggu 3: Kubernetes Basics",
-             expanded: false,
-             days: [
+             id: "september-day21",
+             date: "11 September",
+             dayName: "Rabu",
+             tasks: [
                {
-                 id: "october-day13",
-                 date: "30 September",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "october-task13-1",
-                     text: "Mempelajari konsep Kubernetes",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task13-2",
-                     text: "Memahami container orchestration",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task13-3",
-                     text: "Latihan: Setup minikube",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task21-1",
+                 text: "Mempelajari connection rate limiting",
+                 completed: false,
                },
                {
-                 id: "october-day14",
-                 date: "1 Oktober",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "october-task14-1",
-                     text: "Mempelajari Kubernetes objects",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task14-2",
-                     text: "Memahami Pods dan Deployments",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task14-3",
-                     text: "Latihan: Deploy Go app di Kubernetes",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task21-2",
+                 text: "Memahami reconnection backoff",
+                 completed: false,
                },
                {
-                 id: "october-day15",
-                 date: "2 Oktober",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "october-task15-1",
-                     text: "Mempelajari Services",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task15-2",
-                     text: "Memahami networking di Kubernetes",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task15-3",
-                     text: "Latihan: Expose deployment dengan Service",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "october-day16",
-                 date: "3 Oktober",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "october-task16-1",
-                     text: "Mempelajari ConfigMaps dan Secrets",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task16-2",
-                     text: "Memahami configuration management",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task16-3",
-                     text: "Latihan: Config injection ke Pods",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "october-day17",
-                 date: "4 Oktober",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "october-task17-1",
-                     text: "Mempelajari Persistent Volumes",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task17-2",
-                     text: "Memahami stateful applications",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task17-3",
-                     text: "Mini-project: Stateful service di Kubernetes",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "october-day18",
-                 date: "5-6 Oktober",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "october-task18-1",
-                     text: "Review materi minggu 3",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task18-2",
-                     text: "Riset Kubernetes architecture",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task18-3",
-                     text: "Eksperimen dengan kubectl commands",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task21-3",
+                 text: "Latihan: Implementasi circuit breaker",
+                 completed: false,
                },
              ],
            },
            {
-             id: "october-week4",
-             name: "Minggu 4: Cloud Deployment & Advanced K8s",
-             expanded: false,
-             days: [
+             id: "september-day22",
+             date: "12 September",
+             dayName: "Kamis",
+             tasks: [
                {
-                 id: "october-day19",
-                 date: "7 Oktober",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "october-task19-1",
-                     text: "Mempelajari cloud providers (AWS, GCP, Azure)",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task19-2",
-                     text: "Memahami cloud services",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task19-3",
-                     text: "Latihan: Setup cloud account dan CLI tools",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task22-1",
+                 text: "Mempelajari connection authentication",
+                 completed: false,
                },
                {
-                 id: "october-day20",
-                 date: "8 Oktober",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "october-task20-1",
-                     text: "Mempelajari Kubernetes di cloud",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task20-2",
-                     text: "Memahami managed Kubernetes services",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task20-3",
-                     text: "Latihan: Setup EKS, GKE, atau AKS cluster",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task22-2",
+                 text: "Memahami JWT dengan WebSocket",
+                 completed: false,
                },
                {
-                 id: "october-day21",
-                 date: "9 Oktober",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "october-task21-1",
-                     text: "Mempelajari CI/CD untuk cloud",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task21-2",
-                     text: "Memahami GitHub Actions atau GitLab CI",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task21-3",
-                     text: "Latihan: Setup deployment pipeline",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "october-day22",
-                 date: "10 Oktober",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "october-task22-1",
-                     text: "Mempelajari Helm charts",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task22-2",
-                     text: "Memahami package management untuk K8s",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task22-3",
-                     text: "Latihan: Create dan deploy Helm chart",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "october-day23",
-                 date: "11 Oktober",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "october-task23-1",
-                     text: "Mempelajari monitoring dan logging di cloud",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task23-2",
-                     text: "Memahami cloud observability",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task23-3",
-                     text: "Mini-project: Setup monitoring stack",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "october-day24",
-                 date: "12-13 Oktober",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "october-task24-1",
-                     text: "Proyek Akhir Bulan: Cloud-Native Microservice App",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task24-2",
-                     text: "Containerized services dengan Docker",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task24-3",
-                     text: "Orchestration dengan Kubernetes",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task24-4",
-                     text: "CI/CD pipeline untuk deployment",
-                     completed: false,
-                   },
-                   {
-                     id: "october-task24-5",
-                     text: "Monitoring dan alerting",
-                     completed: false,
-                   },
-                 ],
-               },
-             ],
-           },
-         ],
-       },
-       {
-         weeks: [
-           {
-             id: "november-week1",
-             name: "Minggu 1: Logging & Tracing",
-             expanded: false,
-             days: [
-               {
-                 id: "november-day1",
-                 date: "14 Oktober",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "november-task1-1",
-                     text: "Mempelajari structured logging",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task1-2",
-                     text: "Memahami log levels dan formatting",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task1-3",
-                     text: "Latihan: Implementasi logger dengan Zap",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "november-day2",
-                 date: "15 Oktober",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "november-task2-1",
-                     text: "Mempelajari distributed tracing",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task2-2",
-                     text: "Memahami OpenTelemetry",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task2-3",
-                     text: "Latihan: Instrument aplikasi dengan traces",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "november-day3",
-                 date: "16 Oktober",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "november-task3-1",
-                     text: "Mempelajari context propagation",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task3-2",
-                     text: "Memahami trace IDs dan span IDs",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task3-3",
-                     text: "Latihan: Propagasi trace antarlayanan",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "november-day4",
-                 date: "17 Oktober",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "november-task4-1",
-                     text: "Mempelajari log aggregation",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task4-2",
-                     text: "Memahami ELK stack (Elasticsearch, Logstash, Kibana)",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task4-3",
-                     text: "Latihan: Setup ELK untuk aplikasi Go",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "november-day5",
-                 date: "18 Oktober",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "november-task5-1",
-                     text: "Mempelajari log analysis",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task5-2",
-                     text: "Memahami search queries dan visualisasi",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task5-3",
-                     text: "Mini-project: Dashboard log monitoring",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "november-day6",
-                 date: "19-20 Oktober",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "november-task6-1",
-                     text: "Review materi minggu 1",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task6-2",
-                     text: "Riset best practices untuk logging",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task6-3",
-                     text: "Eksperimen dengan berbagai logging tools",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task22-3",
+                 text: "Latihan: Secure WebSocket connections",
+                 completed: false,
                },
              ],
            },
            {
-             id: "november-week2",
-             name: "Minggu 2: Metrics & Monitoring",
-             expanded: false,
-             days: [
+             id: "september-day23",
+             date: "13 September",
+             dayName: "Jumat",
+             tasks: [
                {
-                 id: "november-day7",
-                 date: "21 Oktober",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "november-task7-1",
-                     text: "Mempelajari metrics collection",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task7-2",
-                     text: "Memahami Prometheus",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task7-3",
-                     text: "Latihan: Instrument aplikasi dengan metrics",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task23-1",
+                 text: "Mempelajari monitoring WebSocket",
+                 completed: false,
                },
                {
-                 id: "november-day8",
-                 date: "22 Oktober",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "november-task8-1",
-                     text: "Mempelajari metric types (counter, gauge, histogram)",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task8-2",
-                     text: "Memahami PromQL",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task8-3",
-                     text: "Latihan: Query dan visualisasi metrics",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task23-2",
+                 text: "Memahami metrics collection",
+                 completed: false,
                },
                {
-                 id: "november-day9",
-                 date: "23 Oktober",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "november-task9-1",
-                     text: "Mempelajari Grafana",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task9-2",
-                     text: "Memahami dashboards dan alerts",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task9-3",
-                     text: "Latihan: Setup Grafana dashboard",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "november-day10",
-                 date: "24 Oktober",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "november-task10-1",
-                     text: "Mempelajari SLIs dan SLOs",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task10-2",
-                     text: "Memahami error budgets",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task10-3",
-                     text: "Latihan: Define SLIs untuk aplikasi",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "november-day11",
-                 date: "25 Oktober",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "november-task11-1",
-                     text: "Mempelajari blackbox monitoring",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task11-2",
-                     text: "Memahami synthetic monitoring",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task11-3",
-                     text: "Mini-project: End-to-end monitoring",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "november-day12",
-                 date: "26-27 Oktober",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "november-task12-1",
-                     text: "Review materi minggu 2",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task12-2",
-                     text: "Riset observability patterns",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task12-3",
-                     text: "Eksperimen dengan advanced dashboards",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task23-3",
+                 text: "Mini-project: WebSocket health dashboard",
+                 completed: false,
                },
              ],
            },
            {
-             id: "november-week3",
-             name: "Minggu 3: CI/CD & GitOps",
-             expanded: false,
-             days: [
+             id: "september-day24",
+             date: "14-15 September",
+             dayName: "Sabtu & Minggu",
+             tasks: [
                {
-                 id: "november-day13",
-                 date: "28 Oktober",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "november-task13-1",
-                     text: "Mempelajari CI/CD principles",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task13-2",
-                     text: "Memahami pipeline stages",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task13-3",
-                     text: "Latihan: Setup basic CI pipeline",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task24-1",
+                 text: "Proyek Akhir Bulan: Realtime Collaboration App",
+                 completed: false,
                },
                {
-                 id: "november-day14",
-                 date: "29 Oktober",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "november-task14-1",
-                     text: "Mempelajari GitHub Actions",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task14-2",
-                     text: "Memahami workflows dan actions",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task14-3",
-                     text: "Latihan: Build dan test workflow",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task24-2",
+                 text: "Fitur chat rooms dan private messaging",
+                 completed: false,
                },
                {
-                 id: "november-day15",
-                 date: "30 Oktober",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "november-task15-1",
-                     text: "Mempelajari GitOps",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task15-2",
-                     text: "Memahami infrastructure as code",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task15-3",
-                     text: "Latihan: Setup aplikasi dengan GitOps",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task24-3",
+                 text: "Presence indicators dan typing notifications",
+                 completed: false,
                },
                {
-                 id: "november-day16",
-                 date: "31 Oktober",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "november-task16-1",
-                     text: "Mempelajari ArgoCD",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task16-2",
-                     text: "Memahami continuous deployment",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task16-3",
-                     text: "Latihan: Setup ArgoCD untuk Kubernetes",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task24-4",
+                 text: "File sharing dan media preview",
+                 completed: false,
                },
                {
-                 id: "november-day17",
-                 date: "1 November",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "november-task17-1",
-                     text: "Mempelajari feature flags",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task17-2",
-                     text: "Memahami canary releases",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task17-3",
-                     text: "Mini-project: Setup progressive delivery",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "november-day18",
-                 date: "2-3 November",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "november-task18-1",
-                     text: "Review materi minggu 3",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task18-2",
-                     text: "Riset deployment strategies",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task18-3",
-                     text: "Eksperimen dengan multi-environment setup",
-                     completed: false,
-                   },
-                 ],
-               },
-             ],
-           },
-           {
-             id: "november-week4",
-             name: "Minggu 4: Infrastructure as Code",
-             expanded: false,
-             days: [
-               {
-                 id: "november-day19",
-                 date: "4 November",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "november-task19-1",
-                     text: "Mempelajari Terraform basics",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task19-2",
-                     text: "Memahami HCL syntax",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task19-3",
-                     text: "Latihan: Setup Terraform project",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "november-day20",
-                 date: "5 November",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "november-task20-1",
-                     text: "Mempelajari Terraform providers",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task20-2",
-                     text: "Memahami resources dan data sources",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task20-3",
-                     text: "Latihan: Provisioning cloud resources",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "november-day21",
-                 date: "6 November",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "november-task21-1",
-                     text: "Mempelajari Terraform modules",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task21-2",
-                     text: "Memahami state management",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task21-3",
-                     text: "Latihan: Buat reusable module",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "november-day22",
-                 date: "7 November",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "november-task22-1",
-                     text: "Mempelajari Terraform dengan Kubernetes",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task22-2",
-                     text: "Memahami Kubernetes provider",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task22-3",
-                     text: "Latihan: Deploy K8s resources dengan Terraform",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "november-day23",
-                 date: "8 November",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "november-task23-1",
-                     text: "Mempelajari security scanning",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task23-2",
-                     text: "Memahami policy as code",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task23-3",
-                     text: "Mini-project: Setup security scanning pipeline",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "november-day24",
-                 date: "9-10 November",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "november-task24-1",
-                     text: "Proyek Akhir Bulan: DevOps Automation Platform",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task24-2",
-                     text: "CI/CD pipeline untuk Go microservices",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task24-3",
-                     text: "Infrastructure as Code dengan Terraform",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task24-4",
-                     text: "Monitoring stack dengan Prometheus dan Grafana",
-                     completed: false,
-                   },
-                   {
-                     id: "november-task24-5",
-                     text: "Centralized logging dengan ELK",
-                     completed: false,
-                   },
-                 ],
-               },
-             ],
-           },
-         ],
-       },
-       {
-         weeks: [
-           {
-             id: "december-week1",
-             name: "Minggu 1: Go Design Patterns",
-             expanded: false,
-             days: [
-               {
-                 id: "december-day1",
-                 date: "11 November",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "december-task1-1",
-                     text: "Mempelajari creational patterns di Go",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task1-2",
-                     text: "Memahami factory, builder, singleton",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task1-3",
-                     text: "Latihan: Implementasi builder pattern",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day2",
-                 date: "12 November",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "december-task2-1",
-                     text: "Mempelajari structural patterns di Go",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task2-2",
-                     text: "Memahami adapter, decorator, facade",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task2-3",
-                     text: "Latihan: Implementasi adapter pattern",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day3",
-                 date: "13 November",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "december-task3-1",
-                     text: "Mempelajari behavioral patterns di Go",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task3-2",
-                     text: "Memahami observer, strategy, command",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task3-3",
-                     text: "Latihan: Implementasi strategy pattern",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day4",
-                 date: "14 November",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "december-task4-1",
-                     text: "Mempelajari functional patterns di Go",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task4-2",
-                     text: "Memahami options pattern, functional options",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task4-3",
-                     text: "Latihan: Implementasi functional options",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day5",
-                 date: "15 November",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "december-task5-1",
-                     text: "Mempelajari concurrency patterns di Go",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task5-2",
-                     text: "Memahami pipeline, fan-out/fan-in, worker pool",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task5-3",
-                     text: "Mini-project: Pipeline processing system",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day6",
-                 date: "16-17 November",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "december-task6-1",
-                     text: "Review materi minggu 1",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task6-2",
-                     text: "Riset idioms Go vs design patterns",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task6-3",
-                     text: "Eksperimen dengan berbagai pattern implementations",
-                     completed: false,
-                   },
-                 ],
-               },
-             ],
-           },
-           {
-             id: "december-week2",
-             name: "Minggu 2: Clean Architecture",
-             expanded: false,
-             days: [
-               {
-                 id: "december-day7",
-                 date: "18 November",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "december-task7-1",
-                     text: "Mempelajari principles of clean architecture",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task7-2",
-                     text: "Memahami separation of concerns",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task7-3",
-                     text: "Latihan: Refactor monolithic app",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day8",
-                 date: "19 November",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "december-task8-1",
-                     text: "Mempelajari domain-driven design",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task8-2",
-                     text: "Memahami entities, value objects, aggregates",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task8-3",
-                     text: "Latihan: Implement domain model",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day9",
-                 date: "20 November",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "december-task9-1",
-                     text: "Mempelajari use cases dan boundaries",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task9-2",
-                     text: "Memahami input/output ports",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task9-3",
-                     text: "Latihan: Implement use case layer",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day10",
-                 date: "21 November",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "december-task10-1",
-                     text: "Mempelajari dependency injection di Go",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task10-2",
-                     text: "Memahami repositories dan services",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task10-3",
-                     text: "Latihan: Implement infrastructure layer",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day11",
-                 date: "22 November",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "december-task11-1",
-                     text: "Mempelajari hexagonal architecture",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task11-2",
-                     text: "Memahami adapters dan ports",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task11-3",
-                     text: "Mini-project: Refactor API dengan clean architecture",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day12",
-                 date: "23-24 November",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "december-task12-1",
-                     text: "Review materi minggu 2",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task12-2",
-                     text: "Riset variations of clean architecture",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task12-3",
-                     text: "Eksperimen dengan Go architecture patterns",
-                     completed: false,
-                   },
-                 ],
-               },
-             ],
-           },
-           {
-             id: "december-week3",
-             name: "Minggu 3: Advanced Go Techniques",
-             expanded: false,
-             days: [
-               {
-                 id: "december-day13",
-                 date: "25 November",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "december-task13-1",
-                     text: "Mempelajari Go generics",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task13-2",
-                     text: "Memahami type parameters dan constraints",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task13-3",
-                     text: "Latihan: Implement generic data structures",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day14",
-                 date: "26 November",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "december-task14-1",
-                     text: "Mempelajari reflection di Go",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task14-2",
-                     text: "Memahami Type dan Value",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task14-3",
-                     text: "Latihan: Build dynamic config parser",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day15",
-                 date: "27 November",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "december-task15-1",
-                     text: "Mempelajari metaprogramming di Go",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task15-2",
-                     text: "Memahami code generation",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task15-3",
-                     text: "Latihan: Generate boilerplate code",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day16",
-                 date: "28 November",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "december-task16-1",
-                     text: "Mempelajari Go AST",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task16-2",
-                     text: "Memahami abstract syntax tree",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task16-3",
-                     text: "Latihan: Build simple linter",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day17",
-                 date: "29 November",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "december-task17-1",
-                     text: "Mempelajari unsafe package",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task17-2",
-                     text: "Memahami memory layout dan pointers",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task17-3",
-                     text: "Mini-project: Performance optimization",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day18",
-                 date: "30 November-1 Desember",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "december-task18-1",
-                     text: "Review materi minggu 3",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task18-2",
-                     text: "Riset advanced Go features",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task18-3",
-                     text: "Eksperimen dengan Go internals",
-                     completed: false,
-                   },
-                 ],
-               },
-             ],
-           },
-           {
-             id: "december-week4",
-             name: "Minggu 4: Performance Optimization",
-             expanded: false,
-             days: [
-               {
-                 id: "december-day19",
-                 date: "2 Desember",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "december-task19-1",
-                     text: "Mempelajari Go memory model",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task19-2",
-                     text: "Memahami garbage collection",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task19-3",
-                     text: "Latihan: Memory profiling",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day20",
-                 date: "3 Desember",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "december-task20-1",
-                     text: "Mempelajari CPU profiling",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task20-2",
-                     text: "Memahami flame graphs",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task20-3",
-                     text: "Latihan: Identify dan fix bottlenecks",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day21",
-                 date: "4 Desember",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "december-task21-1",
-                     text: "Mempelajari data structures optimization",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task21-2",
-                     text: "Memahami memory allocation dan escape analysis",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task21-3",
-                     text: "Latihan: Optimize struct layout",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day22",
-                 date: "5 Desember",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "december-task22-1",
-                     text: "Mempelajari concurrency optimizations",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task22-2",
-                     text: "Memahami mutex contention dan lock-free algorithms",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task22-3",
-                     text: "Latihan: Optimize concurrent code",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day23",
-                 date: "6 Desember",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "december-task23-1",
-                     text: "Mempelajari cgo dan performance trade-offs",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task23-2",
-                     text: "Memahami compiler optimizations",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task23-3",
-                     text: "Mini-project: Benchmark-driven optimization",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "december-day24",
-                 date: "7-8 Desember",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "december-task24-1",
-                     text: "Proyek Akhir Bulan: High-Performance API Server",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task24-2",
-                     text: "Clean architecture implementation",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task24-3",
-                     text: "Optimized data structures dan algorithms",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task24-4",
-                     text: "Efficient concurrency patterns",
-                     completed: false,
-                   },
-                   {
-                     id: "december-task24-5",
-                     text: "Comprehensive benchmarks dan profiling",
-                     completed: false,
-                   },
-                 ],
-               },
-             ],
-           },
-         ],
-       },
-       {
-         weeks: [
-           {
-             id: "january-week1",
-             name: "Minggu 1: System Design Principles",
-             expanded: false,
-             days: [
-               {
-                 id: "january-day1",
-                 date: "9 Desember",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "january-task1-1",
-                     text: "Mempelajari scalability principles",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task1-2",
-                     text: "Memahami horizontal vs vertical scaling",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task1-3",
-                     text: "Latihan: Identify scaling bottlenecks",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day2",
-                 date: "10 Desember",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "january-task2-1",
-                     text: "Mempelajari availability principles",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task2-2",
-                     text: "Memahami redundancy dan fault tolerance",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task2-3",
-                     text: "Latihan: Design high-availability system",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day3",
-                 date: "11 Desember",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "january-task3-1",
-                     text: "Mempelajari reliability principles",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task3-2",
-                     text: "Memahami failure modes dan recovery",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task3-3",
-                     text: "Latihan: Implement graceful degradation",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day4",
-                 date: "12 Desember",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "january-task4-1",
-                     text: "Mempelajari maintainability principles",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task4-2",
-                     text: "Memahami technical debt dan refactoring",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task4-3",
-                     text: "Latihan: Code quality metrics",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day5",
-                 date: "13 Desember",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "january-task5-1",
-                     text: "Mempelajari security principles",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task5-2",
-                     text: "Memahami defense in depth",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task5-3",
-                     text: "Mini-project: Security audit dan improvement",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day6",
-                 date: "14-15 Desember",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "january-task6-1",
-                     text: "Review materi minggu 1",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task6-2",
-                     text: "Riset system design case studies",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task6-3",
-                     text: "Eksperimen dengan design trade-offs",
-                     completed: false,
-                   },
-                 ],
-               },
-             ],
-           },
-           {
-             id: "january-week2",
-             name: "Minggu 2: Scalable Data Management",
-             expanded: false,
-             days: [
-               {
-                 id: "january-day7",
-                 date: "16 Desember",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "january-task7-1",
-                     text: "Mempelajari database sharding",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task7-2",
-                     text: "Memahami partitioning strategies",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task7-3",
-                     text: "Latihan: Implement database sharding",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day8",
-                 date: "17 Desember",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "january-task8-1",
-                     text: "Mempelajari database replication",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task8-2",
-                     text: "Memahami primary-replica dan multi-master",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task8-3",
-                     text: "Latihan: Setup database replication",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day9",
-                 date: "18 Desember",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "january-task9-1",
-                     text: "Mempelajari data partitioning",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task9-2",
-                     text: "Memahami vertical dan horizontal partitioning",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task9-3",
-                     text: "Latihan: Design partitioning scheme",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day10",
-                 date: "19 Desember",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "january-task10-1",
-                     text: "Mempelajari distributed caching",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task10-2",
-                     text: "Memahami cache coherence dan invalidation",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task10-3",
-                     text: "Latihan: Implement multi-level cache",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day11",
-                 date: "20 Desember",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "january-task11-1",
-                     text: "Mempelajari data indexing strategies",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task11-2",
-                     text: "Memahami search optimization",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task11-3",
-                     text: "Mini-project: Advanced search implementation",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day12",
-                 date: "21-22 Desember",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "january-task12-1",
-                     text: "Review materi minggu 2",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task12-2",
-                     text: "Riset data management case studies",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task12-3",
-                     text: "Eksperimen dengan data access patterns",
-                     completed: false,
-                   },
-                 ],
-               },
-             ],
-           },
-           {
-             id: "january-week3",
-             name: "Minggu 3: Load Balancing & Service Discovery",
-             expanded: false,
-             days: [
-               {
-                 id: "january-day13",
-                 date: "23 Desember",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "january-task13-1",
-                     text: "Mempelajari load balancing algorithms",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task13-2",
-                     text: "Memahami round-robin, least connections, IP hash",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task13-3",
-                     text: "Latihan: Implement custom load balancer",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day14",
-                 date: "24 Desember",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "january-task14-1",
-                     text: "Mempelajari layer 4 vs layer 7 load balancing",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task14-2",
-                     text: "Memahami TLS termination dan SSL passthrough",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task14-3",
-                     text: "Latihan: Configure advanced load balancing",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day15",
-                 date: "25 Desember",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "january-task15-1",
-                     text: "Mempelajari service discovery patterns",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task15-2",
-                     text: "Memahami client-side vs server-side discovery",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task15-3",
-                     text: "Latihan: Implement service registry",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day16",
-                 date: "26 Desember",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "january-task16-1",
-                     text: "Mempelajari service mesh architecture",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task16-2",
-                     text: "Memahami Istio dan Linkerd",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task16-3",
-                     text: "Latihan: Setup simple service mesh",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day17",
-                 date: "27 Desember",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "january-task17-1",
-                     text: "Mempelajari health checking dan failover",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task17-2",
-                     text: "Memahami readiness dan liveness probes",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task17-3",
-                     text: "Mini-project: Resilient service discovery",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day18",
-                 date: "28-29 Desember",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "january-task18-1",
-                     text: "Review materi minggu 3",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task18-2",
-                     text: "Riset industry load balancing practices",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task18-3",
-                     text: "Eksperimen dengan discovery mechanisms",
-                     completed: false,
-                   },
-                 ],
-               },
-             ],
-           },
-           {
-             id: "january-week4",
-             name: "Minggu 4: Resilient System Design",
-             expanded: false,
-             days: [
-               {
-                 id: "january-day19",
-                 date: "30 Desember",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "january-task19-1",
-                     text: "Mempelajari distributed systems failure modes",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task19-2",
-                     text: "Memahami CAP theorem",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task19-3",
-                     text: "Latihan: Analyze system resilience",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day20",
-                 date: "31 Desember",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "january-task20-1",
-                     text: "Mempelajari resilience patterns",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task20-2",
-                     text: "Memahami circuit breaker, retries, bulkhead",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task20-3",
-                     text: "Latihan: Implement retry dengan backoff",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day21",
-                 date: "1 Januari",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "january-task21-1",
-                     text: "Mempelajari fault injection testing",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task21-2",
-                     text: "Memahami chaos engineering",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task21-3",
-                     text: "Latihan: Implement simple chaos test",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day22",
-                 date: "2 Januari",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "january-task22-1",
-                     text: "Mempelajari distributed transactions",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task22-2",
-                     text: "Memahami two-phase commit dan sagas",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task22-3",
-                     text: "Latihan: Implement saga pattern",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day23",
-                 date: "3 Januari",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "january-task23-1",
-                     text: "Mempelajari disaster recovery",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task23-2",
-                     text: "Memahami backup strategies dan RPO/RTO",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task23-3",
-                     text: "Mini-project: Disaster recovery plan",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "january-day24",
-                 date: "4-5 Januari",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "january-task24-1",
-                     text: "Proyek Akhir Bulan: Scalable E-commerce Backend",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task24-2",
-                     text: "High-availability design",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task24-3",
-                     text: "Sharded database dengan replication",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task24-4",
-                     text: "Load balancing dan service discovery",
-                     completed: false,
-                   },
-                   {
-                     id: "january-task24-5",
-                     text: "Resilience patterns implementation",
-                     completed: false,
-                   },
-                 ],
-               },
-             ],
-           },
-         ],
-       },
-       {
-         weeks: [
-           {
-             id: "february-week1",
-             name: "Minggu 1: Open Source Contribution",
-             expanded: false,
-             days: [
-               {
-                 id: "february-day1",
-                 date: "6 Januari",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "february-task1-1",
-                     text: "Mempelajari open source participation",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task1-2",
-                     text: "Memahami contribution guidelines",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task1-3",
-                     text: "Latihan: Find potential projects to contribute",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day2",
-                 date: "7 Januari",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "february-task2-1",
-                     text: "Mempelajari GitHub workflows",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task2-2",
-                     text: "Memahami forks, branches, dan PRs",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task2-3",
-                     text: "Latihan: Fork dan setup local environment",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day3",
-                 date: "8 Januari",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "february-task3-1",
-                     text: "Mempelajari issue triage",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task3-2",
-                     text: "Memahami good first issues",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task3-3",
-                     text: "Latihan: Analyze dan comment on open issues",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day4",
-                 date: "9 Januari",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "february-task4-1",
-                     text: "Mempelajari code review process",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task4-2",
-                     text: "Memahami review etiquette",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task4-3",
-                     text: "Latihan: Review existing PRs",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day5",
-                 date: "10 Januari",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "february-task5-1",
-                     text: "Mempelajari documentation contributions",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task5-2",
-                     text: "Memahami effective technical writing",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task5-3",
-                     text: "Mini-project: Submit documentation improvement",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day6",
-                 date: "11-12 Januari",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "february-task6-1",
-                     text: "Review materi minggu 1",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task6-2",
-                     text: "Riset active Go open source projects",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task6-3",
-                     text: "Submit first small PR to a project",
-                     completed: false,
-                   },
-                 ],
-               },
-             ],
-           },
-           {
-             id: "february-week2",
-             name: "Minggu 2: Personal Project Development",
-             expanded: false,
-             days: [
-               {
-                 id: "february-day7",
-                 date: "13 Januari",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "february-task7-1",
-                     text: "Mempelajari project idea validation",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task7-2",
-                     text: "Memahami minimum viable product",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task7-3",
-                     text: "Latihan: Brainstorm dan validate project ideas",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day8",
-                 date: "14 Januari",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "february-task8-1",
-                     text: "Mempelajari project management",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task8-2",
-                     text: "Memahami roadmap development",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task8-3",
-                     text: "Latihan: Create project roadmap dan specifications",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day9",
-                 date: "15 Januari",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "february-task9-1",
-                     text: "Mempelajari project setup best practices",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task9-2",
-                     text: "Memahami monorepo vs multi-repo",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task9-3",
-                     text: "Latihan: Initialize project repository",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day10",
-                 date: "16 Januari",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "february-task10-1",
-                     text: "Mempelajari CI/CD untuk personal projects",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task10-2",
-                     text: "Memahami development workflows",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task10-3",
-                     text: "Latihan: Setup CI pipeline untuk project",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day11",
-                 date: "17 Januari",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "february-task11-1",
-                     text: "Mempelajari project documentation",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task11-2",
-                     text: "Memahami README dan contribution guidelines",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task11-3",
-                     text: "Mini-project: Create comprehensive project documentation",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day12",
-                 date: "18-19 Januari",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "february-task12-1",
-                     text: "Review materi minggu 2",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task12-2",
-                     text: "Riset successful open source project structures",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task12-3",
-                     text: "Work on core features for personal project",
-                     completed: false,
-                   },
-                 ],
-               },
-             ],
-           },
-           {
-             id: "february-week3",
-             name: "Minggu 3: Building an Online Presence",
-             expanded: false,
-             days: [
-               {
-                 id: "february-day13",
-                 date: "20 Januari",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "february-task13-1",
-                     text: "Mempelajari GitHub profile optimization",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task13-2",
-                     text: "Memahami profile READMEs dan pinned repositories",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task13-3",
-                     text: "Latihan: Create professional GitHub profile",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day14",
-                 date: "21 Januari",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "february-task14-1",
-                     text: "Mempelajari technical blogging",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task14-2",
-                     text: "Memahami effective technical writing",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task14-3",
-                     text: "Latihan: Plan series of technical blog posts",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day15",
-                 date: "22 Januari",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "february-task15-1",
-                     text: "Mempelajari personal website development",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task15-2",
-                     text: "Memahami portfolio design",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task15-3",
-                     text: "Latihan: Design personal developer website",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day16",
-                 date: "23 Januari",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "february-task16-1",
-                     text: "Mempelajari social media strategy",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task16-2",
-                     text: "Memahami LinkedIn dan Twitter optimization",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task16-3",
-                     text: "Latihan: Optimize LinkedIn profile",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day17",
-                 date: "24 Januari",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "february-task17-1",
-                     text: "Mempelajari developer communities",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task17-2",
-                     text: "Memahami networking strategies",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task17-3",
-                     text: "Mini-project: Contribute to technical discussions",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day18",
-                 date: "25-26 Januari",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "february-task18-1",
-                     text: "Review materi minggu 3",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task18-2",
-                     text: "Publish first technical blog post",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task18-3",
-                     text: "Continue developing personal website",
-                     completed: false,
-                   },
-                 ],
-               },
-             ],
-           },
-           {
-             id: "february-week4",
-             name: "Minggu 4: Teknologi Emerging & Community Engagement",
-             expanded: false,
-             days: [
-               {
-                 id: "february-day19",
-                 date: "27 Januari",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "february-task19-1",
-                     text: "Mempelajari emerging Go ecosystem trends",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task19-2",
-                     text: "Memahami Go 2 proposals dan roadmap",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task19-3",
-                     text: "Latihan: Experiment dengan experimental features",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day20",
-                 date: "28 Januari",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "february-task20-1",
-                     text: "Mempelajari community meetups dan conferences",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task20-2",
-                     text: "Memahami talk proposals dan presentations",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task20-3",
-                     text: "Latihan: Prepare lightning talk outline",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day21",
-                 date: "29 Januari",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "february-task21-1",
-                     text: "Mempelajari mentorship opportunities",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task21-2",
-                     text: "Memahami teaching dan sharing knowledge",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task21-3",
-                     text: "Latihan: Create tutorial for beginners",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day22",
-                 date: "30 Januari",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "february-task22-1",
-                     text: "Mempelajari open source maintenance",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task22-2",
-                     text: "Memahami sustainable open source",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task22-3",
-                     text: "Latihan: Create contributor guidelines",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day23",
-                 date: "31 Januari",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "february-task23-1",
-                     text: "Mempelajari personal brand consistency",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task23-2",
-                     text: "Memahami career growth dan networking",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task23-3",
-                     text: "Mini-project: Create career development plan",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "february-day24",
-                 date: "1-2 Februari",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "february-task24-1",
-                     text: "Proyek Akhir Bulan: Open Source Go Library",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task24-2",
-                     text: "Release personal project v1.0",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task24-3",
-                     text: "Complete personal website dan blog",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task24-4",
-                     text: "Create contribution guidelines dan roadmap",
-                     completed: false,
-                   },
-                   {
-                     id: "february-task24-5",
-                     text: "Publish comprehensive documentation",
-                     completed: false,
-                   },
-                 ],
-               },
-             ],
-           },
-         ],
-       },
-       {
-         weeks: [
-           {
-             id: "march-week1",
-             name: "Minggu 1: Fullstack Architecture Integration",
-             expanded: false,
-             days: [
-               {
-                 id: "march-day1",
-                 date: "3 Februari",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "march-task1-1",
-                     text: "Mempelajari fullstack architecture patterns",
-                     completed: false,
-                   },
-                   {
-                     id: "march-task1-2",
-                     text: "Memahami frontend-backend communication",
-                     completed: false,
-                   },
-                   {
-                     id: "march-task1-3",
-                     text: "Latihan: Design fullstack system architecture",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "march-day2",
-                 date: "4 Februari",
-                 dayName: "Selasa",
-                 tasks: [
-                   {
-                     id: "march-task2-1",
-                     text: "Mempelajari API design untuk frontend consumption",
-                     completed: false,
-                   },
-                   {
-                     id: "march-task2-2",
-                     text: "Memahami REST vs GraphQL trade-offs",
-                     completed: false,
-                   },
-                   {
-                     id: "march-task2-3",
-                     text: "Latihan: Design API schema for Next.js app",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "march-day3",
-                 date: "5 Februari",
-                 dayName: "Rabu",
-                 tasks: [
-                   {
-                     id: "march-task3-1",
-                     text: "Mempelajari authentication flows",
-                     completed: false,
-                   },
-                   {
-                     id: "march-task3-2",
-                     text: "Memahami session vs token auth",
-                     completed: false,
-                   },
-                   {
-                     id: "march-task3-3",
-                     text: "Latihan: Implement auth flow dengan Next.js dan Go",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "march-day4",
-                 date: "6 Februari",
-                 dayName: "Kamis",
-                 tasks: [
-                   {
-                     id: "march-task4-1",
-                     text: "Mempelajari data fetching patterns",
-                     completed: false,
-                   },
-                   {
-                     id: "march-task4-2",
-                     text: "Memahami SWR/React Query dengan Go backend",
-                     completed: false,
-                   },
-                   {
-                     id: "march-task4-3",
-                     text: "Latihan: Implement optimistic updates",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "march-day5",
-                 date: "7 Februari",
-                 dayName: "Jumat",
-                 tasks: [
-                   {
-                     id: "march-task5-1",
-                     text: "Mempelajari real-time communication",
-                     completed: false,
-                   },
-                   {
-                     id: "march-task5-2",
-                     text: "Memahami WebSockets dengan Next.js dan Go",
-                     completed: false,
-                   },
-                   {
-                     id: "march-task5-3",
-                     text: "Mini-project: Real-time notification system",
-                     completed: false,
-                   },
-                 ],
-               },
-               {
-                 id: "march-day6",
-                 date: "8-9 Februari",
-                 dayName: "Sabtu & Minggu",
-                 tasks: [
-                   {
-                     id: "march-task6-1",
-                     text: "Review materi minggu 1",
-                     completed: false,
-                   },
-                   {
-                     id: "march-task6-2",
-                     text: "Riset fullstack architecture case studies",
-                     completed: false,
-                   },
-                   {
-                     id: "march-task6-3",
-                     text: "Start fullstack project skeleton",
-                     completed: false,
-                   },
-                 ],
-               },
-             ],
-           },
-           {
-             id: "march-week2",
-             name: "Minggu 2: Frontend-Backend Data Flow",
-             expanded: false,
-             days: [
-               {
-                 id: "march-day7",
-                 date: "10 Februari",
-                 dayName: "Senin",
-                 tasks: [
-                   {
-                     id: "march-task7-1",
-                     text: "Mempelajari form handling dan validation",
-                     completed: false,
-                   },
-                   {
-                     id: "march-task7-2",
-                     text: "Memahami client vs server validation",
-                     completed: false,
-                   },
-                   {
-                     id: "march-task7-3",
-                     text: "Latihan: Implement end-to-end form validation",
-                     completed: false,
-                   },
-                 ],
+                 id: "september-task24-5",
+                 text: "Offline message sync",
+                 completed: false,
                },
              ],
            },
@@ -6467,6 +3595,4022 @@
        },
      ],
    },
+   {
+     id: "october-2025",
+     name: "Oktober 2025",
+     title: "Cloud Native Development",
+     progress: 0,
+     weeks: [
+       {
+         id: "october-week1",
+         name: "Minggu 1: Docker Fundamentals",
+         expanded: false,
+         days: [
+           {
+             id: "october-day1",
+             date: "16 September",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "october-task1-1",
+                 text: "Mempelajari konsep containerization",
+                 completed: false,
+               },
+               {
+                 id: "october-task1-2",
+                 text: "Memahami Docker vs VM",
+                 completed: false,
+               },
+               {
+                 id: "october-task1-3",
+                 text: "Latihan: Instalasi Docker",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day2",
+             date: "17 September",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "october-task2-1",
+                 text: "Mempelajari Dockerfile",
+                 completed: false,
+               },
+               {
+                 id: "october-task2-2",
+                 text: "Memahami Docker images dan layers",
+                 completed: false,
+               },
+               {
+                 id: "october-task2-3",
+                 text: "Latihan: Membuat Docker image untuk Go app",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day3",
+             date: "18 September",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "october-task3-1",
+                 text: "Mempelajari Docker containers",
+                 completed: false,
+               },
+               {
+                 id: "october-task3-2",
+                 text: "Memahami container lifecycle",
+                 completed: false,
+               },
+               {
+                 id: "october-task3-3",
+                 text: "Latihan: Running dan managing containers",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day4",
+             date: "19 September",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "october-task4-1",
+                 text: "Mempelajari Docker volumes",
+                 completed: false,
+               },
+               {
+                 id: "october-task4-2",
+                 text: "Memahami data persistence",
+                 completed: false,
+               },
+               {
+                 id: "october-task4-3",
+                 text: "Latihan: Setup volume mounts",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day5",
+             date: "20 September",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "october-task5-1",
+                 text: "Mempelajari Docker networking",
+                 completed: false,
+               },
+               {
+                 id: "october-task5-2",
+                 text: "Memahami bridge networks",
+                 completed: false,
+               },
+               {
+                 id: "october-task5-3",
+                 text: "Mini-project: Multi-container app",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day6",
+             date: "21-22 September",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "october-task6-1",
+                 text: "Review materi minggu 1",
+                 completed: false,
+               },
+               {
+                 id: "october-task6-2",
+                 text: "Riset Docker best practices",
+                 completed: false,
+               },
+               {
+                 id: "october-task6-3",
+                 text: "Eksperimen dengan Docker optimization",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+       {
+         id: "october-week2",
+         name: "Minggu 2: Docker Compose & Multi-Container Apps",
+         expanded: false,
+         days: [
+           {
+             id: "october-day7",
+             date: "23 September",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "october-task7-1",
+                 text: "Mempelajari Docker Compose",
+                 completed: false,
+               },
+               {
+                 id: "october-task7-2",
+                 text: "Memahami docker-compose.yml",
+                 completed: false,
+               },
+               {
+                 id: "october-task7-3",
+                 text: "Latihan: Setup multi-service composition",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day8",
+             date: "24 September",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "october-task8-1",
+                 text: "Mempelajari service dependencies",
+                 completed: false,
+               },
+               {
+                 id: "october-task8-2",
+                 text: "Memahami healthchecks",
+                 completed: false,
+               },
+               {
+                 id: "october-task8-3",
+                 text: "Latihan: Ordered service startup",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day9",
+             date: "25 September",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "october-task9-1",
+                 text: "Mempelajari environment variables",
+                 completed: false,
+               },
+               {
+                 id: "october-task9-2",
+                 text: "Memahami configuration management",
+                 completed: false,
+               },
+               {
+                 id: "october-task9-3",
+                 text: "Latihan: Environment-specific configs",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day10",
+             date: "26 September",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "october-task10-1",
+                 text: "Mempelajari Docker networks",
+                 completed: false,
+               },
+               {
+                 id: "october-task10-2",
+                 text: "Memahami service discovery",
+                 completed: false,
+               },
+               {
+                 id: "october-task10-3",
+                 text: "Latihan: Inter-service communication",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day11",
+             date: "27 September",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "october-task11-1",
+                 text: "Mempelajari container scaling",
+                 completed: false,
+               },
+               {
+                 id: "october-task11-2",
+                 text: "Memahami load balancing",
+                 completed: false,
+               },
+               {
+                 id: "october-task11-3",
+                 text: "Mini-project: Scalable web app dengan Compose",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day12",
+             date: "28-29 September",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "october-task12-1",
+                 text: "Review materi minggu 2",
+                 completed: false,
+               },
+               {
+                 id: "october-task12-2",
+                 text: "Riset production-ready Compose setups",
+                 completed: false,
+               },
+               {
+                 id: "october-task12-3",
+                 text: "Eksperimen dengan Docker Compose override files",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+       {
+         id: "october-week3",
+         name: "Minggu 3: Kubernetes Basics",
+         expanded: false,
+         days: [
+           {
+             id: "october-day13",
+             date: "30 September",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "october-task13-1",
+                 text: "Mempelajari konsep Kubernetes",
+                 completed: false,
+               },
+               {
+                 id: "october-task13-2",
+                 text: "Memahami container orchestration",
+                 completed: false,
+               },
+               {
+                 id: "october-task13-3",
+                 text: "Latihan: Setup minikube",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day14",
+             date: "1 Oktober",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "october-task14-1",
+                 text: "Mempelajari Kubernetes objects",
+                 completed: false,
+               },
+               {
+                 id: "october-task14-2",
+                 text: "Memahami Pods dan Deployments",
+                 completed: false,
+               },
+               {
+                 id: "october-task14-3",
+                 text: "Latihan: Deploy Go app di Kubernetes",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day15",
+             date: "2 Oktober",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "october-task15-1",
+                 text: "Mempelajari Services",
+                 completed: false,
+               },
+               {
+                 id: "october-task15-2",
+                 text: "Memahami networking di Kubernetes",
+                 completed: false,
+               },
+               {
+                 id: "october-task15-3",
+                 text: "Latihan: Expose deployment dengan Service",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day16",
+             date: "3 Oktober",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "october-task16-1",
+                 text: "Mempelajari ConfigMaps dan Secrets",
+                 completed: false,
+               },
+               {
+                 id: "october-task16-2",
+                 text: "Memahami configuration management",
+                 completed: false,
+               },
+               {
+                 id: "october-task16-3",
+                 text: "Latihan: Config injection ke Pods",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day17",
+             date: "4 Oktober",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "october-task17-1",
+                 text: "Mempelajari Persistent Volumes",
+                 completed: false,
+               },
+               {
+                 id: "october-task17-2",
+                 text: "Memahami stateful applications",
+                 completed: false,
+               },
+               {
+                 id: "october-task17-3",
+                 text: "Mini-project: Stateful service di Kubernetes",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day18",
+             date: "5-6 Oktober",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "october-task18-1",
+                 text: "Review materi minggu 3",
+                 completed: false,
+               },
+               {
+                 id: "october-task18-2",
+                 text: "Riset Kubernetes architecture",
+                 completed: false,
+               },
+               {
+                 id: "october-task18-3",
+                 text: "Eksperimen dengan kubectl commands",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+       {
+         id: "october-week4",
+         name: "Minggu 4: Cloud Deployment & Advanced K8s",
+         expanded: false,
+         days: [
+           {
+             id: "october-day19",
+             date: "7 Oktober",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "october-task19-1",
+                 text: "Mempelajari cloud providers (AWS, GCP, Azure)",
+                 completed: false,
+               },
+               {
+                 id: "october-task19-2",
+                 text: "Memahami cloud services",
+                 completed: false,
+               },
+               {
+                 id: "october-task19-3",
+                 text: "Latihan: Setup cloud account dan CLI tools",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day20",
+             date: "8 Oktober",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "october-task20-1",
+                 text: "Mempelajari Kubernetes di cloud",
+                 completed: false,
+               },
+               {
+                 id: "october-task20-2",
+                 text: "Memahami managed Kubernetes services",
+                 completed: false,
+               },
+               {
+                 id: "october-task20-3",
+                 text: "Latihan: Setup EKS, GKE, atau AKS cluster",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day21",
+             date: "9 Oktober",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "october-task21-1",
+                 text: "Mempelajari CI/CD untuk cloud",
+                 completed: false,
+               },
+               {
+                 id: "october-task21-2",
+                 text: "Memahami GitHub Actions atau GitLab CI",
+                 completed: false,
+               },
+               {
+                 id: "october-task21-3",
+                 text: "Latihan: Setup deployment pipeline",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day22",
+             date: "10 Oktober",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "october-task22-1",
+                 text: "Mempelajari Helm charts",
+                 completed: false,
+               },
+               {
+                 id: "october-task22-2",
+                 text: "Memahami package management untuk K8s",
+                 completed: false,
+               },
+               {
+                 id: "october-task22-3",
+                 text: "Latihan: Create dan deploy Helm chart",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day23",
+             date: "11 Oktober",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "october-task23-1",
+                 text: "Mempelajari monitoring dan logging di cloud",
+                 completed: false,
+               },
+               {
+                 id: "october-task23-2",
+                 text: "Memahami cloud observability",
+                 completed: false,
+               },
+               {
+                 id: "october-task23-3",
+                 text: "Mini-project: Setup monitoring stack",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "october-day24",
+             date: "12-13 Oktober",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "october-task24-1",
+                 text: "Proyek Akhir Bulan: Cloud-Native Microservice App",
+                 completed: false,
+               },
+               {
+                 id: "october-task24-2",
+                 text: "Containerized services dengan Docker",
+                 completed: false,
+               },
+               {
+                 id: "october-task24-3",
+                 text: "Orchestration dengan Kubernetes",
+                 completed: false,
+               },
+               {
+                 id: "october-task24-4",
+                 text: "CI/CD pipeline untuk deployment",
+                 completed: false,
+               },
+               {
+                 id: "october-task24-5",
+                 text: "Monitoring dan alerting",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+     ],
+   },
+   {
+     id: "november-2025",
+     name: "November 2025",
+     title: "Observability & DevOps",
+     progress: 0,
+     weeks: [
+       {
+         id: "november-week1",
+         name: "Minggu 1: Logging & Tracing",
+         expanded: false,
+         days: [
+           {
+             id: "november-day1",
+             date: "14 Oktober",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "november-task1-1",
+                 text: "Mempelajari structured logging",
+                 completed: false,
+               },
+               {
+                 id: "november-task1-2",
+                 text: "Memahami log levels dan formatting",
+                 completed: false,
+               },
+               {
+                 id: "november-task1-3",
+                 text: "Latihan: Implementasi logger dengan Zap",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day2",
+             date: "15 Oktober",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "november-task2-1",
+                 text: "Mempelajari distributed tracing",
+                 completed: false,
+               },
+               {
+                 id: "november-task2-2",
+                 text: "Memahami OpenTelemetry",
+                 completed: false,
+               },
+               {
+                 id: "november-task2-3",
+                 text: "Latihan: Instrument aplikasi dengan traces",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day3",
+             date: "16 Oktober",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "november-task3-1",
+                 text: "Mempelajari context propagation",
+                 completed: false,
+               },
+               {
+                 id: "november-task3-2",
+                 text: "Memahami trace IDs dan span IDs",
+                 completed: false,
+               },
+               {
+                 id: "november-task3-3",
+                 text: "Latihan: Propagasi trace antarlayanan",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day4",
+             date: "17 Oktober",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "november-task4-1",
+                 text: "Mempelajari log aggregation",
+                 completed: false,
+               },
+               {
+                 id: "november-task4-2",
+                 text: "Memahami ELK stack (Elasticsearch, Logstash, Kibana)",
+                 completed: false,
+               },
+               {
+                 id: "november-task4-3",
+                 text: "Latihan: Setup ELK untuk aplikasi Go",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day5",
+             date: "18 Oktober",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "november-task5-1",
+                 text: "Mempelajari log analysis",
+                 completed: false,
+               },
+               {
+                 id: "november-task5-2",
+                 text: "Memahami search queries dan visualisasi",
+                 completed: false,
+               },
+               {
+                 id: "november-task5-3",
+                 text: "Mini-project: Dashboard log monitoring",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day6",
+             date: "19-20 Oktober",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "november-task6-1",
+                 text: "Review materi minggu 1",
+                 completed: false,
+               },
+               {
+                 id: "november-task6-2",
+                 text: "Riset best practices untuk logging",
+                 completed: false,
+               },
+               {
+                 id: "november-task6-3",
+                 text: "Eksperimen dengan berbagai logging tools",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+       {
+         id: "november-week2",
+         name: "Minggu 2: Metrics & Monitoring",
+         expanded: false,
+         days: [
+           {
+             id: "november-day7",
+             date: "21 Oktober",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "november-task7-1",
+                 text: "Mempelajari metrics collection",
+                 completed: false,
+               },
+               {
+                 id: "november-task7-2",
+                 text: "Memahami Prometheus",
+                 completed: false,
+               },
+               {
+                 id: "november-task7-3",
+                 text: "Latihan: Instrument aplikasi dengan metrics",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day8",
+             date: "22 Oktober",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "november-task8-1",
+                 text: "Mempelajari metric types (counter, gauge, histogram)",
+                 completed: false,
+               },
+               {
+                 id: "november-task8-2",
+                 text: "Memahami PromQL",
+                 completed: false,
+               },
+               {
+                 id: "november-task8-3",
+                 text: "Latihan: Query dan visualisasi metrics",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day9",
+             date: "23 Oktober",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "november-task9-1",
+                 text: "Mempelajari Grafana",
+                 completed: false,
+               },
+               {
+                 id: "november-task9-2",
+                 text: "Memahami dashboards dan alerts",
+                 completed: false,
+               },
+               {
+                 id: "november-task9-3",
+                 text: "Latihan: Setup Grafana dashboard",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day10",
+             date: "24 Oktober",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "november-task10-1",
+                 text: "Mempelajari SLIs dan SLOs",
+                 completed: false,
+               },
+               {
+                 id: "november-task10-2",
+                 text: "Memahami error budgets",
+                 completed: false,
+               },
+               {
+                 id: "november-task10-3",
+                 text: "Latihan: Define SLIs untuk aplikasi",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day11",
+             date: "25 Oktober",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "november-task11-1",
+                 text: "Mempelajari blackbox monitoring",
+                 completed: false,
+               },
+               {
+                 id: "november-task11-2",
+                 text: "Memahami synthetic monitoring",
+                 completed: false,
+               },
+               {
+                 id: "november-task11-3",
+                 text: "Mini-project: End-to-end monitoring",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day12",
+             date: "26-27 Oktober",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "november-task12-1",
+                 text: "Review materi minggu 2",
+                 completed: false,
+               },
+               {
+                 id: "november-task12-2",
+                 text: "Riset observability patterns",
+                 completed: false,
+               },
+               {
+                 id: "november-task12-3",
+                 text: "Eksperimen dengan advanced dashboards",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+       {
+         id: "november-week3",
+         name: "Minggu 3: CI/CD & GitOps",
+         expanded: false,
+         days: [
+           {
+             id: "november-day13",
+             date: "28 Oktober",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "november-task13-1",
+                 text: "Mempelajari CI/CD principles",
+                 completed: false,
+               },
+               {
+                 id: "november-task13-2",
+                 text: "Memahami pipeline stages",
+                 completed: false,
+               },
+               {
+                 id: "november-task13-3",
+                 text: "Latihan: Setup basic CI pipeline",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day14",
+             date: "29 Oktober",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "november-task14-1",
+                 text: "Mempelajari GitHub Actions",
+                 completed: false,
+               },
+               {
+                 id: "november-task14-2",
+                 text: "Memahami workflows dan actions",
+                 completed: false,
+               },
+               {
+                 id: "november-task14-3",
+                 text: "Latihan: Build dan test workflow",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day15",
+             date: "30 Oktober",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "november-task15-1",
+                 text: "Mempelajari GitOps",
+                 completed: false,
+               },
+               {
+                 id: "november-task15-2",
+                 text: "Memahami infrastructure as code",
+                 completed: false,
+               },
+               {
+                 id: "november-task15-3",
+                 text: "Latihan: Setup aplikasi dengan GitOps",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day16",
+             date: "31 Oktober",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "november-task16-1",
+                 text: "Mempelajari ArgoCD",
+                 completed: false,
+               },
+               {
+                 id: "november-task16-2",
+                 text: "Memahami continuous deployment",
+                 completed: false,
+               },
+               {
+                 id: "november-task16-3",
+                 text: "Latihan: Setup ArgoCD untuk Kubernetes",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day17",
+             date: "1 November",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "november-task17-1",
+                 text: "Mempelajari feature flags",
+                 completed: false,
+               },
+               {
+                 id: "november-task17-2",
+                 text: "Memahami canary releases",
+                 completed: false,
+               },
+               {
+                 id: "november-task17-3",
+                 text: "Mini-project: Setup progressive delivery",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day18",
+             date: "2-3 November",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "november-task18-1",
+                 text: "Review materi minggu 3",
+                 completed: false,
+               },
+               {
+                 id: "november-task18-2",
+                 text: "Riset deployment strategies",
+                 completed: false,
+               },
+               {
+                 id: "november-task18-3",
+                 text: "Eksperimen dengan multi-environment setup",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+       {
+         id: "november-week4",
+         name: "Minggu 4: Infrastructure as Code",
+         expanded: false,
+         days: [
+           {
+             id: "november-day19",
+             date: "4 November",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "november-task19-1",
+                 text: "Mempelajari Terraform basics",
+                 completed: false,
+               },
+               {
+                 id: "november-task19-2",
+                 text: "Memahami HCL syntax",
+                 completed: false,
+               },
+               {
+                 id: "november-task19-3",
+                 text: "Latihan: Setup Terraform project",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day20",
+             date: "5 November",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "november-task20-1",
+                 text: "Mempelajari Terraform providers",
+                 completed: false,
+               },
+               {
+                 id: "november-task20-2",
+                 text: "Memahami resources dan data sources",
+                 completed: false,
+               },
+               {
+                 id: "november-task20-3",
+                 text: "Latihan: Provisioning cloud resources",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day21",
+             date: "6 November",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "november-task21-1",
+                 text: "Mempelajari Terraform modules",
+                 completed: false,
+               },
+               {
+                 id: "november-task21-2",
+                 text: "Memahami state management",
+                 completed: false,
+               },
+               {
+                 id: "november-task21-3",
+                 text: "Latihan: Buat reusable module",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day22",
+             date: "7 November",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "november-task22-1",
+                 text: "Mempelajari Terraform dengan Kubernetes",
+                 completed: false,
+               },
+               {
+                 id: "november-task22-2",
+                 text: "Memahami Kubernetes provider",
+                 completed: false,
+               },
+               {
+                 id: "november-task22-3",
+                 text: "Latihan: Deploy K8s resources dengan Terraform",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day23",
+             date: "8 November",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "november-task23-1",
+                 text: "Mempelajari security scanning",
+                 completed: false,
+               },
+               {
+                 id: "november-task23-2",
+                 text: "Memahami policy as code",
+                 completed: false,
+               },
+               {
+                 id: "november-task23-3",
+                 text: "Mini-project: Setup security scanning pipeline",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "november-day24",
+             date: "9-10 November",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "november-task24-1",
+                 text: "Proyek Akhir Bulan: DevOps Automation Platform",
+                 completed: false,
+               },
+               {
+                 id: "november-task24-2",
+                 text: "CI/CD pipeline untuk Go microservices",
+                 completed: false,
+               },
+               {
+                 id: "november-task24-3",
+                 text: "Infrastructure as Code dengan Terraform",
+                 completed: false,
+               },
+               {
+                 id: "november-task24-4",
+                 text: "Monitoring stack dengan Prometheus dan Grafana",
+                 completed: false,
+               },
+               {
+                 id: "november-task24-5",
+                 text: "Centralized logging dengan ELK",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+     ],
+   },
+   {
+     id: "december-2025",
+     name: "Desember 2025",
+     title: "Advanced Go Patterns",
+     progress: 0,
+     weeks: [
+       {
+         id: "december-week1",
+         name: "Minggu 1: Go Design Patterns",
+         expanded: false,
+         days: [
+           {
+             id: "december-day1",
+             date: "11 November",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "december-task1-1",
+                 text: "Mempelajari creational patterns di Go",
+                 completed: false,
+               },
+               {
+                 id: "december-task1-2",
+                 text: "Memahami factory, builder, singleton",
+                 completed: false,
+               },
+               {
+                 id: "december-task1-3",
+                 text: "Latihan: Implementasi builder pattern",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day2",
+             date: "12 November",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "december-task2-1",
+                 text: "Mempelajari structural patterns di Go",
+                 completed: false,
+               },
+               {
+                 id: "december-task2-2",
+                 text: "Memahami adapter, decorator, facade",
+                 completed: false,
+               },
+               {
+                 id: "december-task2-3",
+                 text: "Latihan: Implementasi adapter pattern",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day3",
+             date: "13 November",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "december-task3-1",
+                 text: "Mempelajari behavioral patterns di Go",
+                 completed: false,
+               },
+               {
+                 id: "december-task3-2",
+                 text: "Memahami observer, strategy, command",
+                 completed: false,
+               },
+               {
+                 id: "december-task3-3",
+                 text: "Latihan: Implementasi strategy pattern",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day4",
+             date: "14 November",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "december-task4-1",
+                 text: "Mempelajari functional patterns di Go",
+                 completed: false,
+               },
+               {
+                 id: "december-task4-2",
+                 text: "Memahami options pattern, functional options",
+                 completed: false,
+               },
+               {
+                 id: "december-task4-3",
+                 text: "Latihan: Implementasi functional options",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day5",
+             date: "15 November",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "december-task5-1",
+                 text: "Mempelajari concurrency patterns di Go",
+                 completed: false,
+               },
+               {
+                 id: "december-task5-2",
+                 text: "Memahami pipeline, fan-out/fan-in, worker pool",
+                 completed: false,
+               },
+               {
+                 id: "december-task5-3",
+                 text: "Mini-project: Pipeline processing system",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day6",
+             date: "16-17 November",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "december-task6-1",
+                 text: "Review materi minggu 1",
+                 completed: false,
+               },
+               {
+                 id: "december-task6-2",
+                 text: "Riset idioms Go vs design patterns",
+                 completed: false,
+               },
+               {
+                 id: "december-task6-3",
+                 text: "Eksperimen dengan berbagai pattern implementations",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+       {
+         id: "december-week2",
+         name: "Minggu 2: Clean Architecture",
+         expanded: false,
+         days: [
+           {
+             id: "december-day7",
+             date: "18 November",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "december-task7-1",
+                 text: "Mempelajari principles of clean architecture",
+                 completed: false,
+               },
+               {
+                 id: "december-task7-2",
+                 text: "Memahami separation of concerns",
+                 completed: false,
+               },
+               {
+                 id: "december-task7-3",
+                 text: "Latihan: Refactor monolithic app",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day8",
+             date: "19 November",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "december-task8-1",
+                 text: "Mempelajari domain-driven design",
+                 completed: false,
+               },
+               {
+                 id: "december-task8-2",
+                 text: "Memahami entities, value objects, aggregates",
+                 completed: false,
+               },
+               {
+                 id: "december-task8-3",
+                 text: "Latihan: Implement domain model",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day9",
+             date: "20 November",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "december-task9-1",
+                 text: "Mempelajari use cases dan boundaries",
+                 completed: false,
+               },
+               {
+                 id: "december-task9-2",
+                 text: "Memahami input/output ports",
+                 completed: false,
+               },
+               {
+                 id: "december-task9-3",
+                 text: "Latihan: Implement use case layer",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day10",
+             date: "21 November",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "december-task10-1",
+                 text: "Mempelajari dependency injection di Go",
+                 completed: false,
+               },
+               {
+                 id: "december-task10-2",
+                 text: "Memahami repositories dan services",
+                 completed: false,
+               },
+               {
+                 id: "december-task10-3",
+                 text: "Latihan: Implement infrastructure layer",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day11",
+             date: "22 November",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "december-task11-1",
+                 text: "Mempelajari hexagonal architecture",
+                 completed: false,
+               },
+               {
+                 id: "december-task11-2",
+                 text: "Memahami adapters dan ports",
+                 completed: false,
+               },
+               {
+                 id: "december-task11-3",
+                 text: "Mini-project: Refactor API dengan clean architecture",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day12",
+             date: "23-24 November",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "december-task12-1",
+                 text: "Review materi minggu 2",
+                 completed: false,
+               },
+               {
+                 id: "december-task12-2",
+                 text: "Riset variations of clean architecture",
+                 completed: false,
+               },
+               {
+                 id: "december-task12-3",
+                 text: "Eksperimen dengan Go architecture patterns",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+       {
+         id: "december-week3",
+         name: "Minggu 3: Advanced Go Techniques",
+         expanded: false,
+         days: [
+           {
+             id: "december-day13",
+             date: "25 November",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "december-task13-1",
+                 text: "Mempelajari Go generics",
+                 completed: false,
+               },
+               {
+                 id: "december-task13-2",
+                 text: "Memahami type parameters dan constraints",
+                 completed: false,
+               },
+               {
+                 id: "december-task13-3",
+                 text: "Latihan: Implement generic data structures",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day14",
+             date: "26 November",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "december-task14-1",
+                 text: "Mempelajari reflection di Go",
+                 completed: false,
+               },
+               {
+                 id: "december-task14-2",
+                 text: "Memahami Type dan Value",
+                 completed: false,
+               },
+               {
+                 id: "december-task14-3",
+                 text: "Latihan: Build dynamic config parser",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day15",
+             date: "27 November",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "december-task15-1",
+                 text: "Mempelajari metaprogramming di Go",
+                 completed: false,
+               },
+               {
+                 id: "december-task15-2",
+                 text: "Memahami code generation",
+                 completed: false,
+               },
+               {
+                 id: "december-task15-3",
+                 text: "Latihan: Generate boilerplate code",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day16",
+             date: "28 November",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "december-task16-1",
+                 text: "Mempelajari Go AST",
+                 completed: false,
+               },
+               {
+                 id: "december-task16-2",
+                 text: "Memahami abstract syntax tree",
+                 completed: false,
+               },
+               {
+                 id: "december-task16-3",
+                 text: "Latihan: Build simple linter",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day17",
+             date: "29 November",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "december-task17-1",
+                 text: "Mempelajari unsafe package",
+                 completed: false,
+               },
+               {
+                 id: "december-task17-2",
+                 text: "Memahami memory layout dan pointers",
+                 completed: false,
+               },
+               {
+                 id: "december-task17-3",
+                 text: "Mini-project: Performance optimization",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day18",
+             date: "30 November-1 Desember",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "december-task18-1",
+                 text: "Review materi minggu 3",
+                 completed: false,
+               },
+               {
+                 id: "december-task18-2",
+                 text: "Riset advanced Go features",
+                 completed: false,
+               },
+               {
+                 id: "december-task18-3",
+                 text: "Eksperimen dengan Go internals",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+       {
+         id: "december-week4",
+         name: "Minggu 4: Performance Optimization",
+         expanded: false,
+         days: [
+           {
+             id: "december-day19",
+             date: "2 Desember",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "december-task19-1",
+                 text: "Mempelajari Go memory model",
+                 completed: false,
+               },
+               {
+                 id: "december-task19-2",
+                 text: "Memahami garbage collection",
+                 completed: false,
+               },
+               {
+                 id: "december-task19-3",
+                 text: "Latihan: Memory profiling",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day20",
+             date: "3 Desember",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "december-task20-1",
+                 text: "Mempelajari CPU profiling",
+                 completed: false,
+               },
+               {
+                 id: "december-task20-2",
+                 text: "Memahami flame graphs",
+                 completed: false,
+               },
+               {
+                 id: "december-task20-3",
+                 text: "Latihan: Identify dan fix bottlenecks",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day21",
+             date: "4 Desember",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "december-task21-1",
+                 text: "Mempelajari data structures optimization",
+                 completed: false,
+               },
+               {
+                 id: "december-task21-2",
+                 text: "Memahami memory allocation dan escape analysis",
+                 completed: false,
+               },
+               {
+                 id: "december-task21-3",
+                 text: "Latihan: Optimize struct layout",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day22",
+             date: "5 Desember",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "december-task22-1",
+                 text: "Mempelajari concurrency optimizations",
+                 completed: false,
+               },
+               {
+                 id: "december-task22-2",
+                 text: "Memahami mutex contention dan lock-free algorithms",
+                 completed: false,
+               },
+               {
+                 id: "december-task22-3",
+                 text: "Latihan: Optimize concurrent code",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day23",
+             date: "6 Desember",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "december-task23-1",
+                 text: "Mempelajari cgo dan performance trade-offs",
+                 completed: false,
+               },
+               {
+                 id: "december-task23-2",
+                 text: "Memahami compiler optimizations",
+                 completed: false,
+               },
+               {
+                 id: "december-task23-3",
+                 text: "Mini-project: Benchmark-driven optimization",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "december-day24",
+             date: "7-8 Desember",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "december-task24-1",
+                 text: "Proyek Akhir Bulan: High-Performance API Server",
+                 completed: false,
+               },
+               {
+                 id: "december-task24-2",
+                 text: "Clean architecture implementation",
+                 completed: false,
+               },
+               {
+                 id: "december-task24-3",
+                 text: "Optimized data structures dan algorithms",
+                 completed: false,
+               },
+               {
+                 id: "december-task24-4",
+                 text: "Efficient concurrency patterns",
+                 completed: false,
+               },
+               {
+                 id: "december-task24-5",
+                 text: "Comprehensive benchmarks dan profiling",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+     ],
+   },
+   {
+     id: "january-2026",
+     name: "Januari 2026",
+     title: "System Design & Scalability",
+     progress: 0,
+     weeks: [
+       {
+         id: "january-week1",
+         name: "Minggu 1: System Design Principles",
+         expanded: false,
+         days: [
+           {
+             id: "january-day1",
+             date: "9 Desember",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "january-task1-1",
+                 text: "Mempelajari scalability principles",
+                 completed: false,
+               },
+               {
+                 id: "january-task1-2",
+                 text: "Memahami horizontal vs vertical scaling",
+                 completed: false,
+               },
+               {
+                 id: "january-task1-3",
+                 text: "Latihan: Identify scaling bottlenecks",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day2",
+             date: "10 Desember",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "january-task2-1",
+                 text: "Mempelajari availability principles",
+                 completed: false,
+               },
+               {
+                 id: "january-task2-2",
+                 text: "Memahami redundancy dan fault tolerance",
+                 completed: false,
+               },
+               {
+                 id: "january-task2-3",
+                 text: "Latihan: Design high-availability system",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day3",
+             date: "11 Desember",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "january-task3-1",
+                 text: "Mempelajari reliability principles",
+                 completed: false,
+               },
+               {
+                 id: "january-task3-2",
+                 text: "Memahami failure modes dan recovery",
+                 completed: false,
+               },
+               {
+                 id: "january-task3-3",
+                 text: "Latihan: Implement graceful degradation",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day4",
+             date: "12 Desember",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "january-task4-1",
+                 text: "Mempelajari maintainability principles",
+                 completed: false,
+               },
+               {
+                 id: "january-task4-2",
+                 text: "Memahami technical debt dan refactoring",
+                 completed: false,
+               },
+               {
+                 id: "january-task4-3",
+                 text: "Latihan: Code quality metrics",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day5",
+             date: "13 Desember",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "january-task5-1",
+                 text: "Mempelajari security principles",
+                 completed: false,
+               },
+               {
+                 id: "january-task5-2",
+                 text: "Memahami defense in depth",
+                 completed: false,
+               },
+               {
+                 id: "january-task5-3",
+                 text: "Mini-project: Security audit dan improvement",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day6",
+             date: "14-15 Desember",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "january-task6-1",
+                 text: "Review materi minggu 1",
+                 completed: false,
+               },
+               {
+                 id: "january-task6-2",
+                 text: "Riset system design case studies",
+                 completed: false,
+               },
+               {
+                 id: "january-task6-3",
+                 text: "Eksperimen dengan design trade-offs",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+       {
+         id: "january-week2",
+         name: "Minggu 2: Scalable Data Management",
+         expanded: false,
+         days: [
+           {
+             id: "january-day7",
+             date: "16 Desember",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "january-task7-1",
+                 text: "Mempelajari database sharding",
+                 completed: false,
+               },
+               {
+                 id: "january-task7-2",
+                 text: "Memahami partitioning strategies",
+                 completed: false,
+               },
+               {
+                 id: "january-task7-3",
+                 text: "Latihan: Implement database sharding",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day8",
+             date: "17 Desember",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "january-task8-1",
+                 text: "Mempelajari database replication",
+                 completed: false,
+               },
+               {
+                 id: "january-task8-2",
+                 text: "Memahami primary-replica dan multi-master",
+                 completed: false,
+               },
+               {
+                 id: "january-task8-3",
+                 text: "Latihan: Setup database replication",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day9",
+             date: "18 Desember",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "january-task9-1",
+                 text: "Mempelajari data partitioning",
+                 completed: false,
+               },
+               {
+                 id: "january-task9-2",
+                 text: "Memahami vertical dan horizontal partitioning",
+                 completed: false,
+               },
+               {
+                 id: "january-task9-3",
+                 text: "Latihan: Design partitioning scheme",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day10",
+             date: "19 Desember",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "january-task10-1",
+                 text: "Mempelajari distributed caching",
+                 completed: false,
+               },
+               {
+                 id: "january-task10-2",
+                 text: "Memahami cache coherence dan invalidation",
+                 completed: false,
+               },
+               {
+                 id: "january-task10-3",
+                 text: "Latihan: Implement multi-level cache",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day11",
+             date: "20 Desember",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "january-task11-1",
+                 text: "Mempelajari data indexing strategies",
+                 completed: false,
+               },
+               {
+                 id: "january-task11-2",
+                 text: "Memahami search optimization",
+                 completed: false,
+               },
+               {
+                 id: "january-task11-3",
+                 text: "Mini-project: Advanced search implementation",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day12",
+             date: "21-22 Desember",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "january-task12-1",
+                 text: "Review materi minggu 2",
+                 completed: false,
+               },
+               {
+                 id: "january-task12-2",
+                 text: "Riset data management case studies",
+                 completed: false,
+               },
+               {
+                 id: "january-task12-3",
+                 text: "Eksperimen dengan data access patterns",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+       {
+         id: "january-week3",
+         name: "Minggu 3: Load Balancing & Service Discovery",
+         expanded: false,
+         days: [
+           {
+             id: "january-day13",
+             date: "23 Desember",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "january-task13-1",
+                 text: "Mempelajari load balancing algorithms",
+                 completed: false,
+               },
+               {
+                 id: "january-task13-2",
+                 text: "Memahami round-robin, least connections, IP hash",
+                 completed: false,
+               },
+               {
+                 id: "january-task13-3",
+                 text: "Latihan: Implement custom load balancer",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day14",
+             date: "24 Desember",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "january-task14-1",
+                 text: "Mempelajari layer 4 vs layer 7 load balancing",
+                 completed: false,
+               },
+               {
+                 id: "january-task14-2",
+                 text: "Memahami TLS termination dan SSL passthrough",
+                 completed: false,
+               },
+               {
+                 id: "january-task14-3",
+                 text: "Latihan: Configure advanced load balancing",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day15",
+             date: "25 Desember",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "january-task15-1",
+                 text: "Mempelajari service discovery patterns",
+                 completed: false,
+               },
+               {
+                 id: "january-task15-2",
+                 text: "Memahami client-side vs server-side discovery",
+                 completed: false,
+               },
+               {
+                 id: "january-task15-3",
+                 text: "Latihan: Implement service registry",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day16",
+             date: "26 Desember",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "january-task16-1",
+                 text: "Mempelajari service mesh architecture",
+                 completed: false,
+               },
+               {
+                 id: "january-task16-2",
+                 text: "Memahami Istio dan Linkerd",
+                 completed: false,
+               },
+               {
+                 id: "january-task16-3",
+                 text: "Latihan: Setup simple service mesh",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day17",
+             date: "27 Desember",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "january-task17-1",
+                 text: "Mempelajari health checking dan failover",
+                 completed: false,
+               },
+               {
+                 id: "january-task17-2",
+                 text: "Memahami readiness dan liveness probes",
+                 completed: false,
+               },
+               {
+                 id: "january-task17-3",
+                 text: "Mini-project: Resilient service discovery",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day18",
+             date: "28-29 Desember",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "january-task18-1",
+                 text: "Review materi minggu 3",
+                 completed: false,
+               },
+               {
+                 id: "january-task18-2",
+                 text: "Riset industry load balancing practices",
+                 completed: false,
+               },
+               {
+                 id: "january-task18-3",
+                 text: "Eksperimen dengan discovery mechanisms",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+       {
+         id: "january-week4",
+         name: "Minggu 4: Resilient System Design",
+         expanded: false,
+         days: [
+           {
+             id: "january-day19",
+             date: "30 Desember",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "january-task19-1",
+                 text: "Mempelajari distributed systems failure modes",
+                 completed: false,
+               },
+               {
+                 id: "january-task19-2",
+                 text: "Memahami CAP theorem",
+                 completed: false,
+               },
+               {
+                 id: "january-task19-3",
+                 text: "Latihan: Analyze system resilience",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day20",
+             date: "31 Desember",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "january-task20-1",
+                 text: "Mempelajari resilience patterns",
+                 completed: false,
+               },
+               {
+                 id: "january-task20-2",
+                 text: "Memahami circuit breaker, retries, bulkhead",
+                 completed: false,
+               },
+               {
+                 id: "january-task20-3",
+                 text: "Latihan: Implement retry dengan backoff",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day21",
+             date: "1 Januari",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "january-task21-1",
+                 text: "Mempelajari fault injection testing",
+                 completed: false,
+               },
+               {
+                 id: "january-task21-2",
+                 text: "Memahami chaos engineering",
+                 completed: false,
+               },
+               {
+                 id: "january-task21-3",
+                 text: "Latihan: Implement simple chaos test",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day22",
+             date: "2 Januari",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "january-task22-1",
+                 text: "Mempelajari distributed transactions",
+                 completed: false,
+               },
+               {
+                 id: "january-task22-2",
+                 text: "Memahami two-phase commit dan sagas",
+                 completed: false,
+               },
+               {
+                 id: "january-task22-3",
+                 text: "Latihan: Implement saga pattern",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day23",
+             date: "3 Januari",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "january-task23-1",
+                 text: "Mempelajari disaster recovery",
+                 completed: false,
+               },
+               {
+                 id: "january-task23-2",
+                 text: "Memahami backup strategies dan RPO/RTO",
+                 completed: false,
+               },
+               {
+                 id: "january-task23-3",
+                 text: "Mini-project: Disaster recovery plan",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "january-day24",
+             date: "4-5 Januari",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "january-task24-1",
+                 text: "Proyek Akhir Bulan: Scalable E-commerce Backend",
+                 completed: false,
+               },
+               {
+                 id: "january-task24-2",
+                 text: "High-availability design",
+                 completed: false,
+               },
+               {
+                 id: "january-task24-3",
+                 text: "Sharded database dengan replication",
+                 completed: false,
+               },
+               {
+                 id: "january-task24-4",
+                 text: "Load balancing dan service discovery",
+                 completed: false,
+               },
+               {
+                 id: "january-task24-5",
+                 text: "Resilience patterns implementation",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+     ],
+   },
+   {
+     id: "february-2026",
+     name: "Februari 2026",
+     title: "Open Source & Personal Branding",
+     progress: 0,
+     weeks: [
+       {
+         id: "february-week1",
+         name: "Minggu 1: Open Source Contribution",
+         expanded: false,
+         days: [
+           {
+             id: "february-day1",
+             date: "6 Januari",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "february-task1-1",
+                 text: "Mempelajari open source participation",
+                 completed: false,
+               },
+               {
+                 id: "february-task1-2",
+                 text: "Memahami contribution guidelines",
+                 completed: false,
+               },
+               {
+                 id: "february-task1-3",
+                 text: "Latihan: Find potential projects to contribute",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day2",
+             date: "7 Januari",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "february-task2-1",
+                 text: "Mempelajari GitHub workflows",
+                 completed: false,
+               },
+               {
+                 id: "february-task2-2",
+                 text: "Memahami forks, branches, dan PRs",
+                 completed: false,
+               },
+               {
+                 id: "february-task2-3",
+                 text: "Latihan: Fork dan setup local environment",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day3",
+             date: "8 Januari",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "february-task3-1",
+                 text: "Mempelajari issue triage",
+                 completed: false,
+               },
+               {
+                 id: "february-task3-2",
+                 text: "Memahami good first issues",
+                 completed: false,
+               },
+               {
+                 id: "february-task3-3",
+                 text: "Latihan: Analyze dan comment on open issues",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day4",
+             date: "9 Januari",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "february-task4-1",
+                 text: "Mempelajari code review process",
+                 completed: false,
+               },
+               {
+                 id: "february-task4-2",
+                 text: "Memahami review etiquette",
+                 completed: false,
+               },
+               {
+                 id: "february-task4-3",
+                 text: "Latihan: Review existing PRs",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day5",
+             date: "10 Januari",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "february-task5-1",
+                 text: "Mempelajari documentation contributions",
+                 completed: false,
+               },
+               {
+                 id: "february-task5-2",
+                 text: "Memahami effective technical writing",
+                 completed: false,
+               },
+               {
+                 id: "february-task5-3",
+                 text: "Mini-project: Submit documentation improvement",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day6",
+             date: "11-12 Januari",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "february-task6-1",
+                 text: "Review materi minggu 1",
+                 completed: false,
+               },
+               {
+                 id: "february-task6-2",
+                 text: "Riset active Go open source projects",
+                 completed: false,
+               },
+               {
+                 id: "february-task6-3",
+                 text: "Submit first small PR to a project",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+       {
+         id: "february-week2",
+         name: "Minggu 2: Personal Project Development",
+         expanded: false,
+         days: [
+           {
+             id: "february-day7",
+             date: "13 Januari",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "february-task7-1",
+                 text: "Mempelajari project idea validation",
+                 completed: false,
+               },
+               {
+                 id: "february-task7-2",
+                 text: "Memahami minimum viable product",
+                 completed: false,
+               },
+               {
+                 id: "february-task7-3",
+                 text: "Latihan: Brainstorm dan validate project ideas",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day8",
+             date: "14 Januari",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "february-task8-1",
+                 text: "Mempelajari project management",
+                 completed: false,
+               },
+               {
+                 id: "february-task8-2",
+                 text: "Memahami roadmap development",
+                 completed: false,
+               },
+               {
+                 id: "february-task8-3",
+                 text: "Latihan: Create project roadmap dan specifications",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day9",
+             date: "15 Januari",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "february-task9-1",
+                 text: "Mempelajari project setup best practices",
+                 completed: false,
+               },
+               {
+                 id: "february-task9-2",
+                 text: "Memahami monorepo vs multi-repo",
+                 completed: false,
+               },
+               {
+                 id: "february-task9-3",
+                 text: "Latihan: Initialize project repository",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day10",
+             date: "16 Januari",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "february-task10-1",
+                 text: "Mempelajari CI/CD untuk personal projects",
+                 completed: false,
+               },
+               {
+                 id: "february-task10-2",
+                 text: "Memahami development workflows",
+                 completed: false,
+               },
+               {
+                 id: "february-task10-3",
+                 text: "Latihan: Setup CI pipeline untuk project",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day11",
+             date: "17 Januari",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "february-task11-1",
+                 text: "Mempelajari project documentation",
+                 completed: false,
+               },
+               {
+                 id: "february-task11-2",
+                 text: "Memahami README dan contribution guidelines",
+                 completed: false,
+               },
+               {
+                 id: "february-task11-3",
+                 text: "Mini-project: Create comprehensive project documentation",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day12",
+             date: "18-19 Januari",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "february-task12-1",
+                 text: "Review materi minggu 2",
+                 completed: false,
+               },
+               {
+                 id: "february-task12-2",
+                 text: "Riset successful open source project structures",
+                 completed: false,
+               },
+               {
+                 id: "february-task12-3",
+                 text: "Work on core features for personal project",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+       {
+         id: "february-week3",
+         name: "Minggu 3: Building an Online Presence",
+         expanded: false,
+         days: [
+           {
+             id: "february-day13",
+             date: "20 Januari",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "february-task13-1",
+                 text: "Mempelajari GitHub profile optimization",
+                 completed: false,
+               },
+               {
+                 id: "february-task13-2",
+                 text: "Memahami profile READMEs dan pinned repositories",
+                 completed: false,
+               },
+               {
+                 id: "february-task13-3",
+                 text: "Latihan: Create professional GitHub profile",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day14",
+             date: "21 Januari",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "february-task14-1",
+                 text: "Mempelajari technical blogging",
+                 completed: false,
+               },
+               {
+                 id: "february-task14-2",
+                 text: "Memahami effective technical writing",
+                 completed: false,
+               },
+               {
+                 id: "february-task14-3",
+                 text: "Latihan: Plan series of technical blog posts",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day15",
+             date: "22 Januari",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "february-task15-1",
+                 text: "Mempelajari personal website development",
+                 completed: false,
+               },
+               {
+                 id: "february-task15-2",
+                 text: "Memahami portfolio design",
+                 completed: false,
+               },
+               {
+                 id: "february-task15-3",
+                 text: "Latihan: Design personal developer website",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day16",
+             date: "23 Januari",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "february-task16-1",
+                 text: "Mempelajari social media strategy",
+                 completed: false,
+               },
+               {
+                 id: "february-task16-2",
+                 text: "Memahami LinkedIn dan Twitter optimization",
+                 completed: false,
+               },
+               {
+                 id: "february-task16-3",
+                 text: "Latihan: Optimize LinkedIn profile",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day17",
+             date: "24 Januari",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "february-task17-1",
+                 text: "Mempelajari developer communities",
+                 completed: false,
+               },
+               {
+                 id: "february-task17-2",
+                 text: "Memahami networking strategies",
+                 completed: false,
+               },
+               {
+                 id: "february-task17-3",
+                 text: "Mini-project: Contribute to technical discussions",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day18",
+             date: "25-26 Januari",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "february-task18-1",
+                 text: "Review materi minggu 3",
+                 completed: false,
+               },
+               {
+                 id: "february-task18-2",
+                 text: "Publish first technical blog post",
+                 completed: false,
+               },
+               {
+                 id: "february-task18-3",
+                 text: "Continue developing personal website",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+       {
+         id: "february-week4",
+         name: "Minggu 4: Teknologi Emerging & Community Engagement",
+         expanded: false,
+         days: [
+           {
+             id: "february-day19",
+             date: "27 Januari",
+             dayName: "Senin",
+             tasks: [
+               {
+                 id: "february-task19-1",
+                 text: "Mempelajari emerging Go ecosystem trends",
+                 completed: false,
+               },
+               {
+                 id: "february-task19-2",
+                 text: "Memahami Go 2 proposals dan roadmap",
+                 completed: false,
+               },
+               {
+                 id: "february-task19-3",
+                 text: "Latihan: Experiment dengan experimental features",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day20",
+             date: "28 Januari",
+             dayName: "Selasa",
+             tasks: [
+               {
+                 id: "february-task20-1",
+                 text: "Mempelajari community meetups dan conferences",
+                 completed: false,
+               },
+               {
+                 id: "february-task20-2",
+                 text: "Memahami talk proposals dan presentations",
+                 completed: false,
+               },
+               {
+                 id: "february-task20-3",
+                 text: "Latihan: Prepare lightning talk outline",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day21",
+             date: "29 Januari",
+             dayName: "Rabu",
+             tasks: [
+               {
+                 id: "february-task21-1",
+                 text: "Mempelajari mentorship opportunities",
+                 completed: false,
+               },
+               {
+                 id: "february-task21-2",
+                 text: "Memahami teaching dan sharing knowledge",
+                 completed: false,
+               },
+               {
+                 id: "february-task21-3",
+                 text: "Latihan: Create tutorial for beginners",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day22",
+             date: "30 Januari",
+             dayName: "Kamis",
+             tasks: [
+               {
+                 id: "february-task22-1",
+                 text: "Mempelajari open source maintenance",
+                 completed: false,
+               },
+               {
+                 id: "february-task22-2",
+                 text: "Memahami sustainable open source",
+                 completed: false,
+               },
+               {
+                 id: "february-task22-3",
+                 text: "Latihan: Create contributor guidelines",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day23",
+             date: "31 Januari",
+             dayName: "Jumat",
+             tasks: [
+               {
+                 id: "february-task23-1",
+                 text: "Mempelajari personal brand consistency",
+                 completed: false,
+               },
+               {
+                 id: "february-task23-2",
+                 text: "Memahami career growth dan networking",
+                 completed: false,
+               },
+               {
+                 id: "february-task23-3",
+                 text: "Mini-project: Create career development plan",
+                 completed: false,
+               },
+             ],
+           },
+           {
+             id: "february-day24",
+             date: "1-2 Februari",
+             dayName: "Sabtu & Minggu",
+             tasks: [
+               {
+                 id: "february-task24-1",
+                 text: "Proyek Akhir Bulan: Open Source Go Library",
+                 completed: false,
+               },
+               {
+                 id: "february-task24-2",
+                 text: "Release personal project v1.0",
+                 completed: false,
+               },
+               {
+                 id: "february-task24-3",
+                 text: "Complete personal website dan blog",
+                 completed: false,
+               },
+               {
+                 id: "february-task24-4",
+                 text: "Create contribution guidelines dan roadmap",
+                 completed: false,
+               },
+               {
+                 id: "february-task24-5",
+                 text: "Publish comprehensive documentation",
+                 completed: false,
+               },
+             ],
+           },
+         ],
+       },
+     ],
+   },{
+    id: "march-2026",
+    name: "Maret 2026",
+    title: "Fullstack Integration",
+    progress: 0,
+    weeks: [
+      {
+        id: "march-week1",
+        name: "Minggu 1: Fullstack Architecture Integration",
+        expanded: false,
+        days: [
+          {
+            id: "march-day1",
+            date: "3 Februari",
+            dayName: "Senin",
+            tasks: [
+              {
+                id: "march-task1-1",
+                text: "Mempelajari fullstack architecture patterns",
+                completed: false,
+              },
+              {
+                id: "march-task1-2",
+                text: "Memahami frontend-backend communication",
+                completed: false,
+              },
+              {
+                id: "march-task1-3",
+                text: "Latihan: Design fullstack system architecture",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day2",
+            date: "4 Februari",
+            dayName: "Selasa",
+            tasks: [
+              {
+                id: "march-task2-1",
+                text: "Mempelajari API design untuk frontend consumption",
+                completed: false,
+              },
+              {
+                id: "march-task2-2",
+                text: "Memahami REST vs GraphQL trade-offs",
+                completed: false,
+              },
+              {
+                id: "march-task2-3",
+                text: "Latihan: Design API schema for Next.js app",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day3",
+            date: "5 Februari",
+            dayName: "Rabu",
+            tasks: [
+              {
+                id: "march-task3-1",
+                text: "Mempelajari authentication flows",
+                completed: false,
+              },
+              {
+                id: "march-task3-2",
+                text: "Memahami session vs token auth",
+                completed: false,
+              },
+              {
+                id: "march-task3-3",
+                text: "Latihan: Implement auth flow dengan Next.js dan Go",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day4",
+            date: "6 Februari",
+            dayName: "Kamis",
+            tasks: [
+              {
+                id: "march-task4-1",
+                text: "Mempelajari data fetching patterns",
+                completed: false,
+              },
+              {
+                id: "march-task4-2",
+                text: "Memahami SWR/React Query dengan Go backend",
+                completed: false,
+              },
+              {
+                id: "march-task4-3",
+                text: "Latihan: Implement optimistic updates",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day5",
+            date: "7 Februari",
+            dayName: "Jumat",
+            tasks: [
+              {
+                id: "march-task5-1",
+                text: "Mempelajari real-time communication",
+                completed: false,
+              },
+              {
+                id: "march-task5-2",
+                text: "Memahami WebSockets dengan Next.js dan Go",
+                completed: false,
+              },
+              {
+                id: "march-task5-3",
+                text: "Mini-project: Real-time notification system",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day6",
+            date: "8-9 Februari",
+            dayName: "Sabtu & Minggu",
+            tasks: [
+              {
+                id: "march-task6-1",
+                text: "Review materi minggu 1",
+                completed: false,
+              },
+              {
+                id: "march-task6-2",
+                text: "Riset fullstack architecture case studies",
+                completed: false,
+              },
+              {
+                id: "march-task6-3",
+                text: "Start fullstack project skeleton",
+                completed: false,
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "march-week2",
+        name: "Minggu 2: Frontend-Backend Data Flow",
+        expanded: false,
+        days: [
+          {
+            id: "march-day7",
+            date: "10 Februari",
+            dayName: "Senin",
+            tasks: [
+              {
+                id: "march-task7-1",
+                text: "Mempelajari form handling dan validation",
+                completed: false,
+              },
+              {
+                id: "march-task7-2",
+                text: "Memahami client vs server validation",
+                completed: false,
+              },
+              {
+                id: "march-task7-3",
+                text: "Latihan: Implement end-to-end form validation",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day8",
+            date: "11 Februari",
+            dayName: "Selasa",
+            tasks: [
+              {
+                id: "march-task8-1",
+                text: "Mempelajari file uploads",
+                completed: false,
+              },
+              {
+                id: "march-task8-2",
+                text: "Memahami multipart forms dan storage",
+                completed: false,
+              },
+              {
+                id: "march-task8-3",
+                text: "Latihan: Implement file upload system",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day9",
+            date: "12 Februari",
+            dayName: "Rabu",
+            tasks: [
+              {
+                id: "march-task9-1",
+                text: "Mempelajari state management",
+                completed: false,
+              },
+              {
+                id: "march-task9-2",
+                text: "Memahami client vs server state",
+                completed: false,
+              },
+              {
+                id: "march-task9-3",
+                text: "Latihan: Implement global state dengan server sync",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day10",
+            date: "13 Februari",
+            dayName: "Kamis",
+            tasks: [
+              {
+                id: "march-task10-1",
+                text: "Mempelajari error handling",
+                completed: false,
+              },
+              {
+                id: "march-task10-2",
+                text: "Memahami error boundaries dan API errors",
+                completed: false,
+              },
+              {
+                id: "march-task10-3",
+                text: "Latihan: Implement cohesive error handling",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day11",
+            date: "14 Februari",
+            dayName: "Jumat",
+            tasks: [
+              {
+                id: "march-task11-1",
+                text: "Mempelajari data caching strategies",
+                completed: false,
+              },
+              {
+                id: "march-task11-2",
+                text: "Memahami client-side caching",
+                completed: false,
+              },
+              {
+                id: "march-task11-3",
+                text: "Mini-project: Cache-aware data fetching",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day12",
+            date: "15-16 Februari",
+            dayName: "Sabtu & Minggu",
+            tasks: [
+              {
+                id: "march-task12-1",
+                text: "Review materi minggu 2",
+                completed: false,
+              },
+              {
+                id: "march-task12-2",
+                text: "Riset advanced React patterns dengan Go backend",
+                completed: false,
+              },
+              {
+                id: "march-task12-3",
+                text: "Continue development fullstack project",
+                completed: false,
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "march-week3",
+        name: "Minggu 3: Advanced Fullstack Features",
+        expanded: false,
+        days: [
+          {
+            id: "march-day13",
+            date: "17 Februari",
+            dayName: "Senin",
+            tasks: [
+              {
+                id: "march-task13-1",
+                text: "Mempelajari server-side rendering",
+                completed: false,
+              },
+              {
+                id: "march-task13-2",
+                text: "Memahami Next.js dengan Go API",
+                completed: false,
+              },
+              {
+                id: "march-task13-3",
+                text: "Latihan: Setup SSR dengan Go data sources",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day14",
+            date: "18 Februari",
+            dayName: "Selasa",
+            tasks: [
+              {
+                id: "march-task14-1",
+                text: "Mempelajari incremental static regeneration",
+                completed: false,
+              },
+              {
+                id: "march-task14-2",
+                text: "Memahami caching dan revalidation",
+                completed: false,
+              },
+              {
+                id: "march-task14-3",
+                text: "Latihan: Implement ISR dengan Go backend",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day15",
+            date: "19 Februari",
+            dayName: "Rabu",
+            tasks: [
+              {
+                id: "march-task15-1",
+                text: "Mempelajari API routes di Next.js",
+                completed: false,
+              },
+              {
+                id: "march-task15-2",
+                text: "Memahami BFF pattern (Backend For Frontend)",
+                completed: false,
+              },
+              {
+                id: "march-task15-3",
+                text: "Latihan: Implement BFF layer",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day16",
+            date: "20 Februari",
+            dayName: "Kamis",
+            tasks: [
+              {
+                id: "march-task16-1",
+                text: "Mempelajari internationalization (i18n)",
+                completed: false,
+              },
+              {
+                id: "march-task16-2",
+                text: "Memahami multi-language support",
+                completed: false,
+              },
+              {
+                id: "march-task16-3",
+                text: "Latihan: Implement i18n di fullstack app",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day17",
+            date: "21 Februari",
+            dayName: "Jumat",
+            tasks: [
+              {
+                id: "march-task17-1",
+                text: "Mempelajari analytics integration",
+                completed: false,
+              },
+              {
+                id: "march-task17-2",
+                text: "Memahami event tracking",
+                completed: false,
+              },
+              {
+                id: "march-task17-3",
+                text: "Mini-project: Dashboard dengan analytics",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day18",
+            date: "22-23 Februari",
+            dayName: "Sabtu & Minggu",
+            tasks: [
+              {
+                id: "march-task18-1",
+                text: "Review materi minggu 3",
+                completed: false,
+              },
+              {
+                id: "march-task18-2",
+                text: "Riset production fullstack architectures",
+                completed: false,
+              },
+              {
+                id: "march-task18-3",
+                text: "Continue development fullstack project",
+                completed: false,
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "march-week4",
+        name: "Minggu 4: Fullstack DevOps & Deployment",
+        expanded: false,
+        days: [
+          {
+            id: "march-day19",
+            date: "24 Februari",
+            dayName: "Senin",
+            tasks: [
+              {
+                id: "march-task19-1",
+                text: "Mempelajari fullstack deployment options",
+                completed: false,
+              },
+              {
+                id: "march-task19-2",
+                text: "Memahami monorepo deployment",
+                completed: false,
+              },
+              {
+                id: "march-task19-3",
+                text: "Latihan: Setup deployment pipeline",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day20",
+            date: "25 Februari",
+            dayName: "Selasa",
+            tasks: [
+              {
+                id: "march-task20-1",
+                text: "Mempelajari environment configuration",
+                completed: false,
+              },
+              {
+                id: "march-task20-2",
+                text: "Memahami secrets management",
+                completed: false,
+              },
+              {
+                id: "march-task20-3",
+                text: "Latihan: Setup multi-environment config",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day21",
+            date: "26 Februari",
+            dayName: "Rabu",
+            tasks: [
+              {
+                id: "march-task21-1",
+                text: "Mempelajari frontend performance optimization",
+                completed: false,
+              },
+              {
+                id: "march-task21-2",
+                text: "Memahami code splitting dan lazy loading",
+                completed: false,
+              },
+              {
+                id: "march-task21-3",
+                text: "Latihan: Optimize fullstack app performance",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day22",
+            date: "27 Februari",
+            dayName: "Kamis",
+            tasks: [
+              {
+                id: "march-task22-1",
+                text: "Mempelajari testing fullstack apps",
+                completed: false,
+              },
+              {
+                id: "march-task22-2",
+                text: "Memahami end-to-end testing dengan Cypress",
+                completed: false,
+              },
+              {
+                id: "march-task22-3",
+                text: "Latihan: Setup e2e tests untuk fullstack app",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day23",
+            date: "28 Februari",
+            dayName: "Jumat",
+            tasks: [
+              {
+                id: "march-task23-1",
+                text: "Mempelajari monitoring fullstack apps",
+                completed: false,
+              },
+              {
+                id: "march-task23-2",
+                text: "Memahami error tracking dan logging",
+                completed: false,
+              },
+              {
+                id: "march-task23-3",
+                text: "Mini-project: Setup monitoring system",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "march-day24",
+            date: "1-2 Maret",
+            dayName: "Sabtu & Minggu",
+            tasks: [
+              {
+                id: "march-task24-1",
+                text: "Proyek Akhir Bulan: E-commerce Fullstack App",
+                completed: false,
+              },
+              {
+                id: "march-task24-2",
+                text: "Next.js frontend dengan Go backend",
+                completed: false,
+              },
+              {
+                id: "march-task24-3",
+                text: "Authentication dan authorization",
+                completed: false,
+              },
+              {
+                id: "march-task24-4",
+                text: "Real-time features dengan WebSockets",
+                completed: false,
+              },
+              {
+                id: "march-task24-5",
+                text: "CI/CD dan deployment ke production",
+                completed: false,
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },{
+    id: "april-2026",
+    name: "April 2026",
+    title: "Interview Prep & Job Hunting",
+    progress: 0,
+    weeks: [
+      {
+        id: "april-week1",
+        name: "Minggu 1: Technical Interview Preparation",
+        expanded: false,
+        days: [
+          {
+            id: "april-day1",
+            date: "3 Maret",
+            dayName: "Senin",
+            tasks: [
+              {
+                id: "april-task1-1",
+                text: "Mempelajari data structures & algorithms review",
+                completed: false,
+              },
+              {
+                id: "april-task1-2",
+                text: "Memahami common coding questions",
+                completed: false,
+              },
+              {
+                id: "april-task1-3",
+                text: "Latihan: Solve Go algorithm problems",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day2",
+            date: "4 Maret",
+            dayName: "Selasa",
+            tasks: [
+              {
+                id: "april-task2-1",
+                text: "Mempelajari system design interview",
+                completed: false,
+              },
+              {
+                id: "april-task2-2",
+                text: "Memahami scalability questions",
+                completed: false,
+              },
+              {
+                id: "april-task2-3",
+                text: "Latihan: Practice system design problems",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day3",
+            date: "5 Maret",
+            dayName: "Rabu",
+            tasks: [
+              {
+                id: "april-task3-1",
+                text: "Mempelajari Go-specific interview questions",
+                completed: false,
+              },
+              {
+                id: "april-task3-2",
+                text: "Memahami concurrency interview topics",
+                completed: false,
+              },
+              {
+                id: "april-task3-3",
+                text: "Latihan: Practice Go coding challenges",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day4",
+            date: "6 Maret",
+            dayName: "Kamis",
+            tasks: [
+              {
+                id: "april-task4-1",
+                text: "Mempelajari frontend interview topics",
+                completed: false,
+              },
+              {
+                id: "april-task4-2",
+                text: "Memahami React dan Next.js questions",
+                completed: false,
+              },
+              {
+                id: "april-task4-3",
+                text: "Latihan: Practice frontend coding challenges",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day5",
+            date: "7 Maret",
+            dayName: "Jumat",
+            tasks: [
+              {
+                id: "april-task5-1",
+                text: "Mempelajari behavioral interview techniques",
+                completed: false,
+              },
+              {
+                id: "april-task5-2",
+                text: "Memahami STAR method",
+                completed: false,
+              },
+              {
+                id: "april-task5-3",
+                text: "Mini-project: Prepare interview stories",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day6",
+            date: "8-9 Maret",
+            dayName: "Sabtu & Minggu",
+            tasks: [
+              {
+                id: "april-task6-1",
+                text: "Review materi minggu 1",
+                completed: false,
+              },
+              {
+                id: "april-task6-2",
+                text: "Practice mock interviews",
+                completed: false,
+              },
+              {
+                id: "april-task6-3",
+                text: "Create study plan for weak areas",
+                completed: false,
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "april-week2",
+        name: "Minggu 2: Resume & Online Presence",
+        expanded: false,
+        days: [
+          {
+            id: "april-day7",
+            date: "10 Maret",
+            dayName: "Senin",
+            tasks: [
+              {
+                id: "april-task7-1",
+                text: "Mempelajari tech resume best practices",
+                completed: false,
+              },
+              {
+                id: "april-task7-2",
+                text: "Memahami ATS optimization",
+                completed: false,
+              },
+              {
+                id: "april-task7-3",
+                text: "Latihan: Create tailored tech resume",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day8",
+            date: "11 Maret",
+            dayName: "Selasa",
+            tasks: [
+              {
+                id: "april-task8-1",
+                text: "Mempelajari LinkedIn optimization",
+                completed: false,
+              },
+              {
+                id: "april-task8-2",
+                text: "Memahami recruiter search strategies",
+                completed: false,
+              },
+              {
+                id: "april-task8-3",
+                text: "Latihan: Optimize LinkedIn profile",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day9",
+            date: "12 Maret",
+            dayName: "Rabu",
+            tasks: [
+              {
+                id: "april-task9-1",
+                text: "Mempelajari GitHub profile optimization",
+                completed: false,
+              },
+              {
+                id: "april-task9-2",
+                text: "Memahami portfolio curation",
+                completed: false,
+              },
+              {
+                id: "april-task9-3",
+                text: "Latihan: Polish GitHub dan portfolio",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day10",
+            date: "13 Maret",
+            dayName: "Kamis",
+            tasks: [
+              {
+                id: "april-task10-1",
+                text: "Mempelajari cover letter strategies",
+                completed: false,
+              },
+              {
+                id: "april-task10-2",
+                text: "Memahami personalization techniques",
+                completed: false,
+              },
+              {
+                id: "april-task10-3",
+                text: "Latihan: Create cover letter template",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day11",
+            date: "14 Maret",
+            dayName: "Jumat",
+            tasks: [
+              {
+                id: "april-task11-1",
+                text: "Mempelajari personal branding",
+                completed: false,
+              },
+              {
+                id: "april-task11-2",
+                text: "Memahami tech community presence",
+                completed: false,
+              },
+              {
+                id: "april-task11-3",
+                text: "Mini-project: Create consistent brand",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day12",
+            date: "15-16 Maret",
+            dayName: "Sabtu & Minggu",
+            tasks: [
+              {
+                id: "april-task12-1",
+                text: "Review materi minggu 2",
+                completed: false,
+              },
+              {
+                id: "april-task12-2",
+                text: "Get feedback on resume dan profiles",
+                completed: false,
+              },
+              {
+                id: "april-task12-3",
+                text: "Finalize all application materials",
+                completed: false,
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "april-week3",
+        name: "Minggu 3: Job Search Strategy",
+        expanded: false,
+        days: [
+          {
+            id: "april-day13",
+            date: "17 Maret",
+            dayName: "Senin",
+            tasks: [
+              {
+                id: "april-task13-1",
+                text: "Mempelajari job search platforms",
+                completed: false,
+              },
+              {
+                id: "april-task13-2",
+                text: "Memahami efficient application strategies",
+                completed: false,
+              },
+              {
+                id: "april-task13-3",
+                text: "Latihan: Create job search tracker",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day14",
+            date: "18 Maret",
+            dayName: "Selasa",
+            tasks: [
+              {
+                id: "april-task14-1",
+                text: "Mempelajari networking strategies",
+                completed: false,
+              },
+              {
+                id: "april-task14-2",
+                text: "Memahami referral advantages",
+                completed: false,
+              },
+              {
+                id: "april-task14-3",
+                text: "Latihan: Create networking outreach plan",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day15",
+            date: "19 Maret",
+            dayName: "Rabu",
+            tasks: [
+              {
+                id: "april-task15-1",
+                text: "Mempelajari tech recruiter interactions",
+                completed: false,
+              },
+              {
+                id: "april-task15-2",
+                text: "Memahami screening calls",
+                completed: false,
+              },
+              {
+                id: "april-task15-3",
+                text: "Latihan: Practice recruiter Q&A",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day16",
+            date: "20 Maret",
+            dayName: "Kamis",
+            tasks: [
+              {
+                id: "april-task16-1",
+                text: "Mempelajari company research techniques",
+                completed: false,
+              },
+              {
+                id: "april-task16-2",
+                text: "Memahami culture fit assessment",
+                completed: false,
+              },
+              {
+                id: "april-task16-3",
+                text: "Latihan: Research target companies",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day17",
+            date: "21 Maret",
+            dayName: "Jumat",
+            tasks: [
+              {
+                id: "april-task17-1",
+                text: "Mempelajari salary negotiation",
+                completed: false,
+              },
+              {
+                id: "april-task17-2",
+                text: "Memahami total compensation",
+                completed: false,
+              },
+              {
+                id: "april-task17-3",
+                text: "Mini-project: Create negotiation script",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day18",
+            date: "22-23 Maret",
+            dayName: "Sabtu & Minggu",
+            tasks: [
+              {
+                id: "april-task18-1",
+                text: "Review materi minggu 3",
+                completed: false,
+              },
+              {
+                id: "april-task18-2",
+                text: "Apply to first batch of jobs",
+                completed: false,
+              },
+              {
+                id: "april-task18-3",
+                text: "Reach out to network contacts",
+                completed: false,
+              },
+            ],
+          },
+        ],
+      },
+      {
+        id: "april-week4",
+        name: "Minggu 4: Interview Practice & Final Preparations",
+        expanded: false,
+        days: [
+          {
+            id: "april-day19",
+            date: "24 Maret",
+            dayName: "Senin",
+            tasks: [
+              {
+                id: "april-task19-1",
+                text: "Mempelajari remote interview best practices",
+                completed: false,
+              },
+              {
+                id: "april-task19-2",
+                text: "Memahami virtual whiteboarding",
+                completed: false,
+              },
+              {
+                id: "april-task19-3",
+                text: "Latihan: Setup professional interview environment",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day20",
+            date: "25 Maret",
+            dayName: "Selasa",
+            tasks: [
+              {
+                id: "april-task20-1",
+                text: "Mempelajari technical presentation skills",
+                completed: false,
+              },
+              {
+                id: "april-task20-2",
+                text: "Memahami code walkthroughs",
+                completed: false,
+              },
+              {
+                id: "april-task20-3",
+                text: "Latihan: Prepare project presentations",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day21",
+            date: "26 Maret",
+            dayName: "Rabu",
+            tasks: [
+              {
+                id: "april-task21-1",
+                text: "Mempelajari common pitfalls",
+                completed: false,
+              },
+              {
+                id: "april-task21-2",
+                text: "Memahami interview red flags",
+                completed: false,
+              },
+              {
+                id: "april-task21-3",
+                text: "Latihan: Practice handling difficult questions",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day22",
+            date: "27 Maret",
+            dayName: "Kamis",
+            tasks: [
+              {
+                id: "april-task22-1",
+                text: "Mempelajari questions to ask employers",
+                completed: false,
+              },
+              {
+                id: "april-task22-2",
+                text: "Memahami company evaluation criteria",
+                completed: false,
+              },
+              {
+                id: "april-task22-3",
+                text: "Latihan: Prepare thoughtful questions",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day23",
+            date: "28 Maret",
+            dayName: "Jumat",
+            tasks: [
+              {
+                id: "april-task23-1",
+                text: "Mempelajari follow-up etiquette",
+                completed: false,
+              },
+              {
+                id: "april-task23-2",
+                text: "Memahami offer evaluation",
+                completed: false,
+              },
+              {
+                id: "april-task23-3",
+                text: "Mini-project: Create decision matrix for offers",
+                completed: false,
+              },
+            ],
+          },
+          {
+            id: "april-day24",
+            date: "29-30 Maret",
+            dayName: "Sabtu & Minggu",
+            tasks: [
+              {
+                id: "april-task24-1",
+                text: "Proyek Akhir Roadmap: Career Launch Package",
+                completed: false,
+              },
+              {
+                id: "april-task24-2",
+                text: "Finalized resume, portfolio, dan online presence",
+                completed: false,
+              },
+              {
+                id: "april-task24-3",
+                text: "Interview preparation materials",
+                completed: false,
+              },
+              {
+                id: "april-task24-4",
+                text: "Technical demonstration projects",
+                completed: false,
+              },
+              {
+                id: "april-task24-5",
+                text: "Job search strategy dan tracking system",
+                completed: false,
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  }
  ];
 
  export default initialMonths;
