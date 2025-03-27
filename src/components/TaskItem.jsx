@@ -3,11 +3,8 @@ import { CheckCircle, Circle } from "lucide-react";
 
 const TaskItem = ({ task, onToggle }) => {
   return (
-    <li className="flex items-start">
-      <button
-        onClick={onToggle}
-        className="mt-0.5 flex-shrink-0 text-gray-400 hover:text-indigo-600 focus:outline-none"
-      >
+    <li className="flex items-start cursor-pointer" onClick={onToggle}>
+      <button className="mt-0.5 flex-shrink-0 text-gray-400 hover:text-indigo-600 focus:outline-none">
         {task.completed ? (
           <CheckCircle className="text-green-500" size={18} />
         ) : (
